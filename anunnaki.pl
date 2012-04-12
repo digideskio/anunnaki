@@ -12,10 +12,11 @@
 #################################################
 use strict;
 use warnings;
-use IO::Socket::INET;
 
 my @source = <src/*.pm>;
 my @modules = <modules/*.pm>;
+
+print "anunnaki irc bot version 1.0 \@author wired";
 
 print "Loading handlers...\n";
 
@@ -30,5 +31,6 @@ foreach my $m (@modules) {
     print "$m loaded.\n";
     require $m;
 }
+
  
-my $irc = irc::new('irc.anonnet.org', 'anewnaki', '#anunnaki,#anonnet');
+my $irc = irc::new('irc.umad.us', 'anunnaki', '#thefirm');

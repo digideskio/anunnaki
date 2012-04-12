@@ -14,30 +14,43 @@ sub new {
 
     print $socket "USER $ident $ident $ident $ident :$ident\n";
     print $socket "NICK $ident\n";
-    
+
+# the auto join for the bot seems to parse differently
+# between inspircd and unreal.. for inspircd uncomment these lines
+
+#    sleep 3;
+#    print $socket "JOIN $channels\r\n";
+
+# uncomment to fork into background
+#    irc->fork();
+
     while(my $data = <$socket>) {
         if($data =~ m/^PING (.*?)$/gi) {
             $socket->send("PONG $1\n");
         }
-
-        if($data =~ /^:$ident/) {
+	
+	# if using inspircd comment out this if statement and use the other one
+        if($data =~ /:$ident/) {
             $socket->send("JOIN $channels\r\n");
         }
 
         if($data =~ /:(.*?)!(.*?)@(.*?) (?:PRIVMSG|NOTICE) (.*?) :(.*?)$/) {
-            my ($user, $real, $host, $chan, $msg) = ($1, $2, $3, $4, $5);
-
-	    if($msg =~ m/^!gamble/) {
-		jewgolds->gamble($socket, $user, $chan);
-	    }
-
-	    if($msg =~ m/^!jewgolds/) {
-		jewgolds->amount($socket, $user, $chan);	
-	    }
-
+	    triggers->parse($1, $2, $3, $4, $5);
         }
-	
+
     print $data;
+    }
+}
+
+sub fork {
+    my $pid = fork();
+
+    if($pid != 0) {
+	open(my $pidfile, ">", "db/anunnaki.pid");
+	print $pidfile "$pid\n";
+	close($pidfile);
+	print "Forked to background running as $pid\n";
+	exit 0;
     }
 }
 
