@@ -3,6 +3,12 @@ package jewgolds;
 use strict;
 use warnings;
 
+BEGIN {
+    triggers->add('channel', 'peasant', '!gamble', 'jewgolds->gamble($user, $chan);');
+    triggers->add('channel', 'peasant', '!jewgolds', 'jewgolds->amount($user, $chan);');
+}
+
+
 sub amount {
     my ($nickname, $channel) = ($_[1], $_[2]);
 

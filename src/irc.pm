@@ -10,7 +10,7 @@ sub new {
     
     our $socket = IO::Socket::INET->new(PeerAddr => $server,
                                         PeerPort => 6667,
-                                        Proto => 'tcp') or die "Could not establish connection to " . $server ."\n";
+                                        Proto => 'tcp') or die " Could not establish connection to " . $server ."\n";
 
     print $socket "USER $ident $ident $ident $ident :$ident\n";
     print $socket "NICK $ident\n";
@@ -28,10 +28,16 @@ sub new {
         if($data =~ m/^PING (.*?)$/gi) {
             $socket->send("PONG $1\n");
         }
-	
-	# if using inspircd comment out this if statement and use the other one
+
+	# identify with nickserv if bot is using registered nick
+	if($data =~ m/^:NickServ!Services\@MagicIRC.Net NOTICE anunnaki :please choose a different nick./) {
+   	    $socket->send("PRIVMSG NickServ :identify lolwut!#\r\n");
+	}
+
+	# if using inspircd comment out this if statement and use the other one above
         if($data =~ /:$ident/) {
-            $socket->send("JOIN $channels\r\n");
+	     $socket->send("JOIN $channels\r\n");
+
         }
 
         if($data =~ /:(.*?)!(.*?)@(.*?) (?:PRIVMSG|NOTICE) (.*?) :(.*?)$/) {

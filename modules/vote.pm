@@ -3,6 +3,11 @@ package vote;
 use strict;
 use warnings;
 
+BEGIN {
+    triggers->add('channel', 'peasant', '!campaign', 'vote->campaign($user, $chan);');
+    triggers->add('channel', 'peasant', '!vote', 'vote-parse($user, $chan, $msg);');
+}
+
 sub campaign {
     my ($nickname, $channel) = ($_[1], $_[2], $_[3]);
 
