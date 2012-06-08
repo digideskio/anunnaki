@@ -1,0 +1,17 @@
+# error reporting (if error reporting is on in anunnaki.conf)
+package error;
+
+use strict;
+use warnings;
+
+sub parse {
+    my ($module, $error) = ($_[1], $_[2]);
+    
+    if($error) {
+        $irc::socket->send("PRIVMSG #thefirm :Error in $module $error\r\n");
+    }
+}
+
+1;
+
+

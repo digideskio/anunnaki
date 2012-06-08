@@ -1,0 +1,789 @@
+PASS :test
+PROTOCTL NOQUIT TOKEN NICKv2 SJOIN SJOIN2 UMODE2 VL SJ3 NS SJB64 TKLEXT NICKIP CHANMODES=beI,kfL,lj,psmntirRcOAQKVCuzNSMTGZ NICKCHARS=
+SERVER dope.umad.us 1 :U2310-FhinXeOoE-18 ayee umad junkbox?!
+:dope.umad.us SMO o :(link) Link dope.umad.us -> anunnaki.core[@174.34.147.216.57348] established
+:dope.umad.us SERVER hub.chataddix.net 2 :MagicIRC's geekgirl Server
+:hub.chataddix.net EOS
+:hub.chataddix.net SERVER gryffindor.starfleetirc.net 3 :Where dwell the brave of heart
+:gryffindor.starfleetirc.net EOS
+:hub.chataddix.net SERVER irc.lowendsolutions.com 3 :lowend solutions
+:irc.lowendsolutions.com EOS
+:hub.chataddix.net SERVER ayiana.magicirc.net 3 :Hiding in the mists of Avalon
+:ayiana.magicirc.net EOS
+:hub.chataddix.net SERVER irc.expl0it3d.co.cc 3 :expl0it3d
+:irc.expl0it3d.co.cc EOS
+:hub.chataddix.net SERVER hydro.magicirc.net 3 :Grown With Water
+:hydro.magicirc.net EOS
+:hub.chataddix.net SERVER Services.MagicIRC 3 :Services for MagicIRC IRC Network
+:Services.MagicIRC EOS
+:hub.chataddix.net SERVER chasm.abyssnet.net 3 :Chastaddix
+:chasm.abyssnet.net EOS
+:dope.umad.us SERVER irc.umad.us 2 :ayee umad?!
+:irc.umad.us EOS
+:hub.chataddix.net SERVER geekgirl.MagicIRC.net 3 :MagicIRC's geekgirl Server
+:geekgirl.MagicIRC.net EOS
+:dope.umad.us SERVER irc.wedope.org 2 :wedope nd ubummy
+:irc.wedope.org EOS
+:hub.chataddix.net SERVER toxica.chataddix.net 3 :main networkserver
+:toxica.chataddix.net EOS
+NICK Carlisle 3 1337798336 ~Carlisle 70.39.125.66 gryffindor.starfleetirc.net 1 :Carlisle Cullen
+:Carlisle MODE Carlisle :+ixB
+:Carlisle SETHOST CD1E33F.9E0BC4FE.8D64F774.IP
+:Carlisle JOIN #Sarah`s-Office,#lobby,#GG'sCrypt,#Main,#Home
+NICK plat_ 3 1338180750 plat_ ipv6.1fd.bparker.name ayiana.magicirc.net 1 :plat_
+:plat_ MODE plat_ :+iwz
+:plat_ AWAY :auto-away
+:plat_ JOIN #Main
+NICK Jer 3 1338409945 jeremy node4.smart-serv.net gryffindor.starfleetirc.net 1338409945 :Jeremy Johnston
+:Jer MODE Jer :+irxz
+:Jer SETHOST rage-FB2AA39D.smart-serv.net
+:Jer JOIN #wedope,#expl0it3d,#Main
+NICK a 1 1338410533 a ool-44c3213d.dyn.optonline.net dope.umad.us 1338410533 :a
+:a MODE a :+iowghraAxNW
+:a SETHOST rage-83EEE706.dyn.optonline.net
+:a JOIN #Main,#wedope,#$,#umad
+NICK Zach 3 1338417309 Zach expl0it3d.co.cc irc.expl0it3d.co.cc 1338417309 :Magic
+:Zach MODE Zach :+iowgraAxNWqzHt
+:Zach SETHOST expl0it3d.in
+SWHOIS Zach :expl0it3d founder
+:Zach JOIN #fight,#!@expl0it3d@!#,#tellus,#services,#Staff,#expl0it3d,#Main
+NICK Bodyguard 3 1338418336 ~eggdrop expl0it3d.co.cc gryffindor.starfleetirc.net 1 :Bodyguard
+:Bodyguard MODE Bodyguard :+ix
+:Bodyguard SETHOST rage-5117A195.co.cc
+:Bodyguard JOIN #!@expl0it3d@!#,#Staff,#Main,#evangelion,#expl0it3d
+NICK echelon 3 1338440394 fuckstix im.l33t.hax0r.from.echelonstudios.net hydro.magicirc.net 1338440394 :justbolee :: bnc
+:echelon MODE echelon :+iowghraAxNWt
+:echelon SETHOST bitches.and.their.dra.ma
+:echelon JOIN #Main,#expl0it3d
+NICK Mysterian 3 1338459150 FBI 188.165.69.245 irc.expl0it3d.co.cc 1 :Secret
+:Mysterian MODE Mysterian :+iwx
+:Mysterian SETHOST 39CE688B.519178A6.FE8ED0DA.IP
+:Mysterian AWAY :Auto away at Thu May 31 14:08:59 2012
+:Mysterian JOIN #wedope,#expl0it3d,#Main
+NICK cooldude 3 1338463797 cooldude13 50.7.18.163.wolfpaw.mycooldude.info hydro.magicirc.net 1 :Jordie
+:cooldude MODE cooldude :+iwx
+:cooldude SETHOST rage-CBF826CA.wolfpaw.mycooldude.info
+:cooldude JOIN #Home
+NICK V4mpire 3 1338517657 Gary 81.5.164.85 hydro.magicirc.net 1 :Dracula
+:V4mpire MODE V4mpire :+iwx
+:V4mpire SETHOST 246D3F1B.655F93F0.CB6325E7.IP
+:V4mpire JOIN #Main
+NICK OperServ 3 1338520262 Services MagicIRC.Net Services.MagicIRC 0 :Operator Server
+:OperServ MODE OperServ :+ioS
+NICK NickServ 3 1338520262 Services MagicIRC.Net Services.MagicIRC 0 :Nickname Server
+:NickServ MODE NickServ :+oS
+NICK ChanServ 3 1338520262 Services MagicIRC.Net Services.MagicIRC 0 :Channel Server
+:ChanServ MODE ChanServ :+oS
+NICK HostServ 3 1338520262 Services MagicIRC.Net Services.MagicIRC 0 :vHost Server
+:HostServ MODE HostServ :+oS
+NICK MemoServ 3 1338520262 Services MagicIRC.Net Services.MagicIRC 0 :Memo Server
+:MemoServ MODE MemoServ :+oS
+NICK BotServ 3 1338520262 Services MagicIRC.Net Services.MagicIRC 0 :Bot Server
+:BotServ MODE BotServ :+oS
+NICK HelpServ 3 1338520262 Services MagicIRC.Net Services.MagicIRC 0 :Help Server
+:HelpServ MODE HelpServ :+oS
+NICK Global 3 1338520262 Services MagicIRC.Net Services.MagicIRC 0 :Global Noticer
+:Global MODE Global :+ioS
+NICK AbyssNet 3 1338520262 Abyss AbyssNet.Bots Services.MagicIRC 0 :Abyss
+:AbyssNet MODE AbyssNet :+Sq
+NICK ActiveBot 3 1338520262 Activated I.Am.Active Services.MagicIRC 0 :O.O
+:ActiveBot MODE ActiveBot :+Sq
+NICK AriaBerry 3 1338520262 Asari Omega.Ruler Services.MagicIRC 0 :Aria T'Loak
+:AriaBerry MODE AriaBerry :+Sq
+NICK Barbie 3 1338520262 BarbieBot Im.A.Barbie.Girl Services.MagicIRC 0 :In a barbie world ;)
+:Barbie MODE Barbie :+Sq
+NICK Bouncer 3 1338520262 Bouncer InnovaIRC.Net Services.MagicIRC 0 :Bouncer
+:Bouncer MODE Bouncer :+Sq
+:Bouncer JOIN #bnc,#Innova
+NICK DATA 3 1338520262 Commander NCC.1701 Services.MagicIRC 0 :LT
+:DATA MODE DATA :+Sq
+NICK Fawkes 3 1338520262 Anonymous We.Are.Legion Services.MagicIRC 0 :You wish you knew ;)
+:Fawkes MODE Fawkes :+Sq
+NICK HTML_Bot 3 1338520262 Internet HyperText.Markup.Language Services.MagicIRC 0 :I am a BOT
+:HTML_Bot MODE HTML_Bot :+Sq
+NICK ICS 3 1338520262 ics google.com Services.MagicIRC 0 :gCode
+:ICS MODE ICS :+Sq
+NICK LES 3 1338520262 serv lowendsolutions.com Services.MagicIRC 0 :serv
+:LES MODE LES :+Sq
+:LES JOIN #lowendsolutions
+NICK MandyBot 3 1338520262 MandyBot I.Love.Phil Services.MagicIRC 0 :Myranda Bot
+:MandyBot MODE MandyBot :+Sq
+NICK ProjectC 3 1338520262 cIRCBot Project.Clunk.IRC Services.MagicIRC 0 :cIRC Project Bot
+:ProjectC MODE ProjectC :+Sq
+NICK Pwner 3 1338520262 Pwnage Services.Bot Services.MagicIRC 0 :Pwner
+:Pwner MODE Pwner :+Sq
+NICK RadioServ 3 1338520262 RadioServ MagicIRCs.Radio.Room.Bot Services.MagicIRC 0 :RadioServe
+:RadioServ MODE RadioServ :+Sq
+NICK SergeantMajor 3 1338520262 SgtMajor Sgt.Major.Of.The.Incognito.Army Services.MagicIRC 0 :Sergeant Major Bot
+:SergeantMajor MODE SergeantMajor :+Sq
+NICK sexme 3 1338520262 hawt geekgirl.iz Services.MagicIRC 0 :haxeduupbby
+:sexme MODE sexme :+Sq
+NICK ShadowChat 3 1338520262 ShadowBot I.Lurk.In.The.Shadows Services.MagicIRC 0 :Shadow Chat Bot ;)
+:ShadowChat MODE ShadowChat :+Sq
+NICK Skittles 3 1338520262 Skittles I.Love.Rainbows Services.MagicIRC 0 :skittles
+:Skittles MODE Skittles :+Sq
+:Skittles JOIN #rage,#Staff,#Home
+NICK Supporter 3 1338520262 Help I.Support.You Services.MagicIRC 0 :Incognito IRC Support
+:Supporter MODE Supporter :+Sq
+NICK Wuuuchaaah 3 1338520262 Wucha services.Incognito.net Services.MagicIRC 0 :Wuuuchaaah
+:Wuuuchaaah MODE Wuuuchaaah :+Sq
+NICK Carebear 3 1338520352 care carebears.love.geekgirl Services.MagicIRC 0 :bear
+:Carebear MODE Carebear :+Sq
+:Carebear JOIN #Main
+NICK determinology 1 1338539350 DETERMINOL 74.83.24.118 dope.umad.us 1 :JRJRJTEJ
+:determinology MODE determinology :+iwx
+:determinology SETHOST A4E2F69.9926C1FE.8C6A7A58.IP
+:determinology JOIN #wedope,#umad
+NICK aidz 1 1338539462 ivan ivan2.baconseed.org dope.umad.us 1 :Ivan
+:aidz MODE aidz :+iwx
+:aidz SETHOST rage-18E997FD.baconseed.org
+:aidz AWAY :not here ...
+:aidz JOIN #umad
+NICK Poseidon 3 1338542649 Poseidon 64.34.219.22 irc.expl0it3d.co.cc 1 :Poseidon
+:Poseidon MODE Poseidon :+iwx
+:Poseidon SETHOST 798DE95.77CC0777.E6D1569.IP
+:Poseidon AWAY :Auto away at Fri Jun  1 09:12:37 2012
+:Poseidon JOIN #expl0it3d,#Main
+NICK Joah 3 1335127088 Joah antherax.org geekgirl.MagicIRC.net 1335127088 :Joah
+:Joah MODE Joah :+iwrxzt
+:Joah SETHOST WannaBeNetAdmin.MagicIRC.Net
+:Joah JOIN #expl0it3d,#Main,#umad,#wedop
+NICK variable 3 1337937885 geekgirl 72.20.38.124 geekgirl.MagicIRC.net 1 :Eggdrop Bot
+:variable MODE variable :+ix
+:variable SETHOST FE1012B3.F6F3E9CA.D500441A.IP
+:variable JOIN #expl0it3d,#Main,#Home,#Innova,#Games,#Carded
+NICK tricid 3 1337937898 tricid 74.197.187.12 geekgirl.MagicIRC.net 1 :tricid
+:tricid MODE tricid :+iwx
+:tricid SETHOST 73E7478C.17B83CB8.F0EC69EC.IP
+:tricid JOIN #Main
+NICK punzada 3 1338415794 punzada oper.ca geekgirl.MagicIRC.net 1 :punzada
+:punzada MODE punzada :+iwx
+:punzada SETHOST rage-ECDEFD38.ca
+:punzada JOIN #Main
+NICK lar 1 1338583234 lar 02.us.lowendsolutions.com dope.umad.us 1 :lar
+:lar MODE lar :+iwx
+:lar SETHOST rage-93A3692C.us.lowendsolutions.com
+:lar JOIN #HQ,#wedope
+NICK Jay 3 1338614326 Jay 184.91.253.178 geekgirl.MagicIRC.net 1338614326 :Jay
+:Jay MODE Jay :+iwrxztp
+:Jay SETHOST The.Other.DRug
+:Jay JOIN #Main
+NICK Kaiten 3 1338616486 Kaiten ddos.4.the.lulz Services.MagicIRC 0 :Kaiten
+:Kaiten MODE Kaiten :+Sq
+:Kaiten JOIN #expl0it3d,#!@expl0it3d@!#
+NICK Gottesgeschenk 3 1338620949 GatewayX 24-216-211-36.dhcp.stls.mo.charter.com irc.expl0it3d.co.cc 1 :.
+:Gottesgeschenk MODE Gottesgeschenk :+iwx
+:Gottesgeschenk SETHOST rage-7DFF75BE.dhcp.stls.mo.charter.com
+:Gottesgeschenk JOIN #expl0it3d
+NICK Kritikal 2 1338618791 Kritikal ool-18bc1410.dyn.optonline.net irc.umad.us 1338618791 :Kritikal
+:Kritikal MODE Kritikal :+iowghraAxNWt
+:Kritikal SETHOST netadmin.umad.us
+:Kritikal JOIN #Main,#expl0it3d,#services,#Staff,#umad
+NICK thirst 1 1338619956 estupido cpe-74-67-196-43.twcny.res.rr.com dope.umad.us 1338619956 :waaaaaaaaaaaaves
+:thirst MODE thirst :+iwrx
+:thirst SETHOST rage-F4ECDFE7.twcny.res.rr.com
+:thirst JOIN #Main,#umad
+NICK rj|gone 1 1338792409 rj 74.121.182.130 dope.umad.us 1 :Rob
+:rj|gone MODE rj|gone :+iwxz
+:rj|gone SETHOST 7D1F9F8B.248F2425.80E98C25.IP
+:rj|gone AWAY :I am offline at the moment, leave a message in query!
+:rj|gone JOIN #umad,#wedope
+NICK bars 1 1338765263 bars c-76-118-136-8.hsd1.ma.comcast.net dope.umad.us 1338765263 :hank smithers
+:bars MODE bars :+iowghraAxNW
+:bars SETHOST rage-D7AA72EB.hsd1.ma.comcast.net
+:bars JOIN #anunnaki,#$,#Main,#umad
+NICK Ace 3 1338670642 ecA irc.csc2ya.co.uk chasm.abyssnet.net 1338670642 :Tech.ChatNSN
+:Ace MODE Ace :+iwrxt
+:Ace SETHOST csc2ya.co.uk
+:Ace JOIN #Main
+NICK Vista[a] 3 1338772233 Vista irc.csc2ya.co.uk chasm.abyssnet.net 1 :me
+:Vista[a] MODE Vista[a] :+iwxt
+:Vista[a] SETHOST csc2ya.co.uk
+:Vista[a] AWAY :I am not here, this session is detached!
+:Vista[a] JOIN #Main
+NICK Sachit 3 1338699318 Sachit 174.127.80.135 irc.lowendsolutions.com 1 :Sachit
+:Sachit MODE Sachit :+iwx
+:Sachit SETHOST 5B5616EC.FE124429.FFA34BD1.IP
+:Sachit JOIN #lowendsolutions
+NICK Zidz 3 1338752960 Ziddy d67-193-123-110.home3.cgocable.net irc.expl0it3d.co.cc 1 :Ziddy
+:Zidz MODE Zidz :+iwx
+:Zidz SETHOST rage-34E29A98.home3.cgocable.net
+:Zidz JOIN #Main,#fuck
+NICK FusionScript 3 1338753491 fScript 209.141.44.10 irc.lowendsolutions.com 1 :FusionScript - http://fusionscript.ca
+:FusionScript MODE FusionScript :+iwxBp
+:FusionScript SETHOST EFD7C2E4.ABA7FC48.C39F3CB7.IP
+:FusionScript JOIN #umad,#bnc,#Main,#support,#fusionscript,#bots,#Home
+NICK nowai 3 1338755581 Top.Boy cpc1-asht2-0-0-cust301.10-1.cable.virginmedia.com toxica.chataddix.net 1 :Xaero
+:nowai MODE nowai :+iwx
+:nowai SETHOST rage-F0DB0276.cable.virginmedia.com
+:nowai JOIN #expl0it3d
+NICK geekgirldroid 3 1338767218 godie mctnnbsa59w-156034050141.dhcp-dynamic.FibreOP.nb.bellaliant.net toxica.chataddix.net 1 :godie
+:geekgirldroid MODE geekgirldroid :+iwxz
+:geekgirldroid SETHOST rage-CE91A915.dhcp-dynamic.fibreop.nb.bellaliant.net
+:geekgirldroid JOIN #Main,#umad
+NICK syk 1 1338767719 syk c-71-229-51-76.hsd1.ga.comcast.net dope.umad.us 1 :syk
+:syk MODE syk :+iwx
+:syk SETHOST rage-EEC18A92.hsd1.ga.comcast.net
+:syk JOIN #umad
+NICK geekgirl 3 1338771451 ~godie mctnnbsa59w-156034050141.dhcp-dynamic.FibreOP.nb.bellaliant.net gryffindor.starfleetirc.net 1338771451 :godie
+:geekgirl MODE geekgirl :+iowghraAxNWt
+:geekgirl SETHOST Staff.MagicIRC.Net
+:geekgirl JOIN #umad,#expl0it3d,#Staff,#Main
+NICK JewKatze 3 1338775854 hurrdurr 70.230.163.176 irc.expl0it3d.co.cc 1 :Daniel Davis
+:JewKatze MODE JewKatze :+iwx
+:JewKatze SETHOST 3B31BA5E.50ACDB25.5680D0BD.IP
+:JewKatze JOIN #expl0it3d,#umad,#Main
+NICK FuckAXanny 1 1338779010 fax adsl-98-89-102-21.mgm.bellsouth.net dope.umad.us 1 :fax
+:FuckAXanny MODE FuckAXanny :+iwx
+:FuckAXanny SETHOST rage-519B2FB5.mgm.bellsouth.net
+:FuckAXanny JOIN #wedope,#umad
+NICK `Angel 3 1338782867 Iloveyou 99-108-252-149.lightspeed.irvnca.sbcglobal.net irc.expl0it3d.co.cc 1 :Blue Eyes
+:`Angel MODE `Angel :+iwx
+:`Angel SETHOST rage-719838DD.lightspeed.irvnca.sbcglobal.net
+:`Angel JOIN #expl0it3d,#Main
+NICK Ashlei 3 1338782891 Ashlei pppoe3-24.argontech.net hydro.magicirc.net 1338782891 :...
+:Ashlei MODE Ashlei :+iwrx
+:Ashlei SETHOST rage-E0A65C75.argontech.net
+:Ashlei JOIN #expl0it3d,#Main
+NICK Haunted 3 1338782615 ~demoneyz8 108.223.143.159 gryffindor.starfleetirc.net 1 :Brandi
+:Haunted MODE Haunted :+ix
+:Haunted SETHOST 17B51377.8F735610.6AB1AAEA.IP
+:Haunted JOIN #expl0it3d,#Main
+NICK mason 3 1338784343 masonmadri ACA20036.ipt.aol.com gryffindor.starfleetirc.net 1 :mason
+:mason MODE mason :+ix
+:mason SETHOST rage-FA029DEF.ipt.aol.com
+:mason JOIN #umad,#Main
+NICK sooley 3 1338793554 smoke.d S0106001ee5049e80.gv.shawcable.net irc.lowendsolutions.com 1338793554 :*
+:sooley MODE sooley :+iowghraAxNWzt
+:sooley SETHOST nk
+:sooley JOIN #services,#Staff,#lowendsolutions,#lowend,#bnc,#support,#Home,#rage,#bots,#fusionscript,#umad
+NICK anunnaki 1 1338795863 anunnaki ip-174-34-147-216.static.smart-serv.net dope.umad.us 1338795863 :anunnaki :anunnaki
+:anunnaki MODE anunnaki :+iowghraAxNW
+:anunnaki SETHOST rage-7E074A36.static.smart-serv.net
+:anunnaki JOIN #umad,#anunnaki
+:dope.umad.us MODE #lowend +sntrlLo 1 #lowendsolutions sooley 1338793555
+:dope.umad.us MODE #lowend + 1338793555
+:dope.umad.us MODE #lowend +q sooley 1338793555
+TOPIC #lowend ChanServ 1338793511 :
+:dope.umad.us MODE #rage +rlo 1 Skittles 1338793555
+:dope.umad.us MODE #rage + 1338793555
+:dope.umad.us MODE #rage +v sooley 1338793555
+:dope.umad.us MODE #rage +a Skittles
+TOPIC #rage geekgirl 1336836450 :Join #Main | {Welcome to RageIRC | Please Register your Nicknames by typing /msg nickserv register <Your Password> <Your Email Address> | ipv6.magicirc.net for ipv6}
+:dope.umad.us MODE #fuck +ntr 1338751524
+:dope.umad.us MODE #fuck + 1338751524
+TOPIC #fuck Gamaliel 1338752420 :RULE NUMBER ONE: OFFENSE DOES NOT EXIST IN #FUCK
+:dope.umad.us MODE #bnc +ntroo sooley Bouncer 1338665711
+:dope.umad.us MODE #bnc + 1338665711
+:dope.umad.us MODE #bnc +q sooley 1338665711
+:dope.umad.us MODE #bnc +a Bouncer
+TOPIC #bnc FusionScript 1335228109 :3|1,3|9,3|3,9|10,9|9,3|1,3 1 Get a free (with public vhost) or a private ($10/6 months, with custom vhost) - PM or highlight sooley for more information 3,3|10,9|3,9|9,3|1,3|3,1|
+:dope.umad.us MODE #support +nt 1338665711
+:dope.umad.us MODE #support + 1338665711
+:dope.umad.us MODE #bots +nt 1338665711
+:dope.umad.us MODE #bots + 1338665711
+:dope.umad.us MODE #fusionscript +ntro sooley 1338665711
+:dope.umad.us MODE #fusionscript + 1338665711
+:dope.umad.us MODE #fusionscript +q sooley 1338665711
+TOPIC #fusionscript sooley 1335156060 :8,0Â®8,15Â®8,14Â®8,1Â® 0 Welcome to the FusionScript mSL IRC Bot support channel. Our official support channel is available @ hades.swiftirc.net #FusionScript (6667 / +6697 SSL) :: Bot Status: 3,1 Online0 Help: http://www.fusionscript.ca 8,1Â®8,14Â®8,15Â®8,0Â®8,15Â�
+:dope.umad.us MODE #fight + 1338624205
+:dope.umad.us MODE #fight + 1338624205
+:dope.umad.us MODE #!@expl0it3d@!# +sntiroo Kaiten Zach 1338617490
+:dope.umad.us MODE #!@expl0it3d@!# + 1338617490
+:dope.umad.us MODE #!@expl0it3d@!# +IIII Kait!*@* Madly!*@* Gamaliel!*@* Zach!*@*
+:dope.umad.us MODE #!@expl0it3d@!# +q Zach 1338617490
+:dope.umad.us MODE #!@expl0it3d@!# +a Kaiten
+TOPIC #!@expl0it3d@!# Kaiten 1338649718 :
+:dope.umad.us MODE #HQ +o lar 1338583259
+:dope.umad.us MODE #HQ + 1338583259
+:dope.umad.us MODE #Innova +ntro Bouncer 1337937898
+:dope.umad.us MODE #Innova + 1337937898
+:dope.umad.us MODE #Innova +a Bouncer
+TOPIC #Innova Tidus 1337376379 :I've got nothing
+:dope.umad.us MODE #Carded +nto variable 1337937913
+:dope.umad.us MODE #Carded + 1337937913
+:dope.umad.us MODE #wedop +o Joah 1338110408
+:dope.umad.us MODE #wedop + 1338110408
+:dope.umad.us MODE #tellus + 1338441319
+:dope.umad.us MODE #tellus + 1338441319
+:dope.umad.us MODE #tellus +q Zach 1338441319
+:dope.umad.us MODE #evangelion +nto Bodyguard 1338418356
+:dope.umad.us MODE #evangelion + 1338418356
+:dope.umad.us MODE #$ +snt 1338408045
+:dope.umad.us MODE #$ + 1338408045
+:dope.umad.us MODE #anunnaki +ntroo anunnaki bars 1338408037
+:dope.umad.us MODE #anunnaki + 1338408037
+:dope.umad.us MODE #anunnaki +qq anunnaki bars 1338408037
+TOPIC #anunnaki bars 1337742469 :/msg anunnaki .register yourpass
+:dope.umad.us MODE #wedope +ntr 1338406379
+:dope.umad.us MODE #wedope + 1338406379
+TOPIC #wedope bars 1338263491 :http://i.imgur.com/bqSnl.png - this is our motherfucking disclaimer bitch. holler at the full length of my dick by the means of the law of a pimp. always holler back because if you front yous a lame. g�z up, hoes down. swallow back.
+:dope.umad.us MODE #Sarah`s-Office +nto Carlisle 1337798373
+:dope.umad.us MODE #Sarah`s-Office + 1337798373
+:dope.umad.us MODE #lobby +nto Carlisle 1337798350
+:dope.umad.us MODE #lobby + 1337798350
+:dope.umad.us MODE #GG'sCrypt +nto Carlisle 1337798342
+:dope.umad.us MODE #GG'sCrypt + 1337798342
+:dope.umad.us MODE #Main +ntrQoooooo Ashlei geekgirl Jay echelon Joah Carebear 1314404024
+:dope.umad.us MODE #Main +h Kritikal 1314404024
+:dope.umad.us MODE #Main +bb *!*@expl0it3d.in CerealAssNigga!*@*
+:dope.umad.us MODE #Main +eeeeeeeeee -v!*@* +v!*@* Red-Dragon!*@* FreakShow!*@* *!*@Staff.FlameChat.Com GMan!*@* *!*Reezy'sIP@* *!*@Incognito.IRC.Owner Bella!*@* *!*urMyCutie@*.dr04.ekgv.ca.frontiernet.net
+:dope.umad.us MODE #Main +vvvvvvvvvvvv mason Haunted Zidz Ashlei `Angel JewKatze geekgirldroid FusionScript Vista[a] Ace bars thirst 1314404024
+:dope.umad.us MODE #Main +vvvvvvvvvvvv Joah tricid variable punzada Poseidon V4mpire Mysterian Bodyguard a Jer Carlisle plat_ 1314404024
+:dope.umad.us MODE #Main +q geekgirl 1314404024
+:dope.umad.us MODE #Main +aa Joah Carebear
+TOPIC #Main geekgirl 1338323662 :Welcome to #Main!
+:dope.umad.us MODE #umad +ntrSooooooooooo anunnaki geekgirl syk geekgirldroid bars rj|gone thirst Kritikal aidz determinology a 1334190390
+:dope.umad.us MODE #umad + 1334190390
+:dope.umad.us MODE #umad +bb lar!*@* spawn!*@*
+:dope.umad.us MODE #umad +e kait@*!*@*
+:dope.umad.us MODE #umad +vv FusionScript Joah 1334190390
+:dope.umad.us MODE #umad +qqqqq anunnaki bars thirst Kritikal a 1334190390
+:dope.umad.us MODE #umad +a rj|gone
+TOPIC #umad syk 1338587995 :RIP lar,Break`
+:dope.umad.us MODE #Staff +sntrOSoo geekgirl Skittles 1313734693
+:dope.umad.us MODE #Staff + 1313734693
+:dope.umad.us MODE #Staff +eee FreakShow!*@* *!*@Staff.FlameChat.Com GMan!*@*
+:dope.umad.us MODE #Staff +q geekgirl 1313734693
+:dope.umad.us MODE #Staff +a Skittles
+TOPIC #Staff Zach 1337673543 :Evangelion has decided to delink without any notice. 
+:dope.umad.us MODE #expl0it3d +ntrSoooooooooo Ashlei geekgirl Kritikal Kaiten Joah Poseidon Mysterian echelon Bodyguard Jer 1332990603
+:dope.umad.us MODE #expl0it3d + 1332990603
+:dope.umad.us MODE #expl0it3d +b test!*@*
+:dope.umad.us MODE #expl0it3d +v variable 1332990603
+:dope.umad.us MODE #expl0it3d +qq Ashlei geekgirl 1332990603
+:dope.umad.us MODE #expl0it3d +aaaaaa Kritikal Gottesgeschenk Kaiten Joah echelon Jer
+TOPIC #expl0it3d Zach 1338697386 :Welcome to #expl0it3d. Want an @expl0it3d.in email address? Visit http://www.expl0it3d.in/ to sign up for one today! || Play MineCraft? Come play with us at minecraft.expl0it3d.in:25565 ! MineCraft=down until further notice
+:dope.umad.us MODE #Home +ntro Skittles 1337004903
+:dope.umad.us MODE #Home + 1337004903
+:dope.umad.us MODE #Home +vvvvv sooley FusionScript variable cooldude Carlisle 1337004903
+:dope.umad.us MODE #Home +a Skittles
+TOPIC #Home geekgirl 1335300493 :{Welcome to MagicIRC | Please Register your Nicknames by typing /msg nickserv register <Your Password> <Your Email Address> | ipv6.magicirc.net for ipv6}
+:dope.umad.us MODE #services +sntrOACTfj [2c#C15,3j#i10,2k#K15,8m#m10,4n#N15]:3 2:10 1310117000
+:dope.umad.us MODE #services + 1310117000
+TOPIC #services mad 1332012954 :log
+:dope.umad.us MODE #lowendsolutions +ntroo sooley LES 1335310583
+:dope.umad.us MODE #lowendsolutions + 1335310583
+:dope.umad.us MODE #lowendsolutions +q sooley 1335310583
+:dope.umad.us MODE #lowendsolutions +a LES
+TOPIC #lowendsolutions sooley 1335264236 :Support channel for Lowend Solutions - Got IPv6? Connect to the IRC network via IPv6 using this server: 2a00:dcc0:eda:89:14:179:4176:75f8 (or irc6.lowendsolutions.com)
+:dope.umad.us MODE #Games +ntr 1337937905
+:dope.umad.us MODE #Games + 1337937905
+TOPIC #Games geekgirl 1331512397 :To play uno type !uno
+:dope.umad.us TKL + F cpnNPqduat b SPAWN!Spawn@OOOOOOOOO.MMMMMMMMM.GGGGGGGGG 0 1331353531 :efnet.at
+:dope.umad.us TKL + F cNPquat b Zach!Magic@NetAdmin.MagicIRC.net 0 1337062356 :nigger
+:dope.umad.us TKL + F cpnNPqdat b Alan!devnull@Dont.Dazzle.Them.With.Brightness.Baffle.Them.With.BS 0 1310679486 :*me-chat*
+:dope.umad.us TKL + F cpnNPqduat Z Alan!devnull@Dont.Dazzle.Them.With.Brightness.Baffle.Them.With.BS 0 1311014972 :m é - c h á t . c ó m
+:dope.umad.us TKL + F cpnNPqduat b Alan|Away!devnull@Dont.Dazzle.Them.With.Brightness.Baffle.Them.With.BS 0 1312241875 :*peercommons*
+:dope.umad.us TKL + F cpnNPqduat b Alan!devnull@Requiem.Aeternus 0 1332147123 :*open-scene*
+:dope.umad.us TKL + F cpnNPqd b Availea!~SVannatte@Staff.Starfleetirc.net 0 1328548388 :Net IRC.bluecrystalchat.Net
+:dope.umad.us TKL + F cpnNPqd b Availea!~SVannatte@Staff.Starfleetirc.net 0 1328548468 :irc . chat . 3-a . net
+:dope.umad.us TKL + F cpnNPqd b Availea!~SVannatte@Staff.Starfleetirc.net 0 1328548732 :irc.icwonline.net
+:dope.umad.us TKL + F cpnNPqduat b geekgirl!godie@Network.Bitch.Flamechat.com 0 1329428604 :http://i42.tinypic.com/34pdefl.png
+:dope.umad.us TKL + F cpnNPqduat b geekgirl!godie@Network.Bitch.Flamechat.com 0 1329428626 :http://i40.tinypic.com/ibx30z.png
+:dope.umad.us TKL + F cpnNPqduat b SPAWN!Spawn@OOOOOOOOO.MMMMMMMMM.GGGGGGGGG 0 1331353527 :*efnet.at*
+:dope.umad.us TKL + F pq Z glitch!wat@staff.gcode.biz 0 1332804260 :*abraxas*
+:dope.umad.us TKL + G * 212.183.140.56 bars!dawg@rage-D7AA72EB.hsd1.ma.comcast.net 0 1338408079 :i dont like you
+:dope.umad.us TKL + G * 74.117.239.50 Kritikal!Kritikal@netadmin.umad.us 0 1336967106 :gtfo
+:dope.umad.us TKL + G * cpe-68-175-82-3.nyc.res.rr.com geekgirl!godie@NetAdmin.chataddix.net 0 1336964436 :DERRRP
+:dope.umad.us TKL + G * remote.allstateaso.com geekgirl!godie@NetAdmin.chataddix.net 0 1336964430 :derrrp
+:dope.umad.us TKL + G * adsl-98-93-221-94.owb.bellsouth.net Tiffy!You@Evangelion-670AFE93.hsd1.md.comcast.net 0 1331021674 :take your ewhoring elsewhere steven no one will believe your 2343242342 lies and sweet talking anymore.
+:dope.umad.us TKL + G * ip72-196-104-176.ga.at.cox.net Devious!You@Cant.Say.Happiness.Without.Saying.Penis 0 1328620450 :fuck you, ya stupid moron we dont need your moronic drivel here
+:dope.umad.us TKL + G * turmoil.xtronic.net Zach!Zach@NetAdmin.EvangelionIRC.com 0 1331245266 :Krashed, you ain't welcome here.
+:dope.umad.us TKL + G * *.xtronic.net Alan!devnull@Dont.Dazzle.Them.With.Brightness.Baffle.Them.With.BS 0 1331592239 :Permanent ban for threatening a chatter. That type of activity is not welcome here, and neither are you. Do not bother appealing this ban.
+:dope.umad.us TKL + G * 188.165.73.223 Zach!Zach@NetAdmin.EvangelionIRC.com 0 1332900555 :aren't hyp, you poser fuck.
+:dope.umad.us TKL + G * 83.172.87.65 geekgirl!godie@Staff.MagicIRC.Net 0 1336912368 :bye
+:dope.umad.us TKL + G * 207-67-110-238.static.twtelecom.net geekgirl!godie@Staff.MagicIRC.Net 0 1336912344 :0
+:dope.umad.us TKL + G * c-68-53-174-205.hsd1.ms.comcast.net geekgirl!godie@Staff.MagicIRC.Net 0 1336912338 :bye
+:dope.umad.us TKL + G Forte *.* Atreyu!AZ@Network-Admin.InnovaIRC.Net 0 1335122821 :R&R
+:dope.umad.us TKL + G * 219.143.*.* Kritikal!Kritikal@netadmin.umad.us 0 1335119889 :gtfo with those shit ciscos
+:dope.umad.us TKL + G * c-67-174-164-22.hsd1.ga.comcast.net Zach!Magic@NetAdmin.MagicIRC.net 0 1335012933 :bots
+:dope.umad.us TKL + G * c-98-226-219-109.hsd1.il.comcast.net Zach!Magic@NetAdmin.MagicIRC.net 0 1335012924 :bots
+:dope.umad.us TKL + G * 199.127.226.24 Angie`!Angie@Network-Administrator 0 1334877688 :0
+:dope.umad.us TKL + G * 74-128-114-3.dhcp.insightbb.com Kritikal!Kritikal@netadmin.umad.us 0 1334874913 :gtfo
+:dope.umad.us TKL + G * 99.65.209.204 bars!dawg@umad-B7CBA612.hsd1.ma.comcast.net 0 1334874866 :lol
+:dope.umad.us TKL + G * c-69-246-225-191.hsd1.in.comcast.net bars!dawg@umad-B7CBA612.hsd1.ma.comcast.net 0 1334874858 :lol
+:dope.umad.us TKL + G * 115-64-127-84.tpgi.com.au bars!dawg@umad-B7CBA612.hsd1.ma.comcast.net 0 1334874845 :lol
+:dope.umad.us TKL + G * 76.226.39.155 bars!dawg@umad-B7CBA612.hsd1.ma.comcast.net 0 1334874834 :lol
+:dope.umad.us TKL + G * *res-cmts.sett.ptd.net bars!dawg@umad-B7CBA612.hsd1.ma.comcast.net 0 1334874598 :lol
+:dope.umad.us TKL + G * *blng.qwest.net bars!dawg@umad-B7CBA612.hsd1.ma.comcast.net 0 1334874568 :no reason
+:dope.umad.us TKL + G * *.dsl.dyn.mana.pf Kritikal!Kritikal@umad-5B66037.dyn.optonline.net 0 1334287604 :no reason
+:dope.umad.us TKL + G * wsip-70-167-190-60.sd.sd.cox.net geekgirl!~godie@Staff.MagicIRC.Net 0 1332948476 :BAWTFLOODS
+:dope.umad.us TKL + G * .business.telecomitalia.it geekgirl!~godie@Staff.MagicIRC.Net 0 1332946034 :no reason
+:dope.umad.us TKL + G * host198-26-static.44-85-b.business.telecomitalia.it geekgirl!~godie@Staff.MagicIRC.Net 0 1332945987 :BYE
+:dope.umad.us TKL + G * 74.9.54.90 geekgirl!~godie@Staff.MagicIRC.Net 0 1332945979 :bye
+:dope.umad.us TKL + G * 188.168.103.12 Zach!Magic@NetAdmin.MagicIRC.net 0 1335307485 :no reason
+:dope.umad.us TKL + G * ip174-64-166-192.lf.br.cox.net Zach!Magic@NetAdmin.MagicIRC.net 0 1335307490 :no reason
+:dope.umad.us TKL + G * 173.214.219.245 geekgirl!godie@NetAdmin.MagicIRC.net 0 1335563977 :get the fuck off my network.
+:dope.umad.us TKL + G * ur.moms.got.a.bigbox.info geekgirlmobile!~geekgirlm@Staff.MagicIRC.Net 0 1335803431 :bye glitchiepoo
+:dope.umad.us TKL + G * 74.117.239.54 geekgirl!godie@Staff.MagicIRC.Net 0 1335878221 :HIIII GLITCH
+:dope.umad.us TKL + G * gcode.biz a!a@rage-83EEE706.dyn.optonline.net 0 1336335391 :wot
+:dope.umad.us TKL + G * vps.magiceffects.geek.nz Zach!Magic@NetAdmin.expl0it3d.in 0 1337754332 :0
+:dope.umad.us TKL + G * mother.fucker.i.got.bad-ne.ws Zach!Magic@NetAdmin.expl0it3d.in 0 1337754381 :no reason
+:dope.umad.us TKL + G * irc.efnut.org Zach!Magic@NetAdmin.expl0it3d.in 0 1337754400 :no reason
+:dope.umad.us TKL + G * kthnx.now.piss-off.org Zach!Magic@NetAdmin.expl0it3d.in 0 1337754414 :no reason
+:dope.umad.us TKL + G * has.your.jacked.cc Zach!Magic@NetAdmin.expl0it3d.in 0 1337754438 :no reason
+:dope.umad.us TKL + G * be.cautio.us Zach!Magic@NetAdmin.expl0it3d.in 0 1337754459 :no reason
+:dope.umad.us TKL + Q * Kaiten Services.MagicIRC 0 1338616465 :Reserved for services
+:dope.umad.us TKL + Q * Carebear Services.MagicIRC 0 1338520340 :Reserved for services
+:dope.umad.us TKL + Q * masturbate Services.AbyssNet.Net 0 1300337769 :Inappropriate Nick.
+:dope.umad.us TKL + Q * masterbate Services.AbyssNet.Net 0 1300337766 :Inappropriate Nick.
+:dope.umad.us TKL + Q * sex Services.AbyssNet.Net 0 1300337744 :Inappropriate Nick.
+:dope.umad.us TKL + Q * fag Services.AbyssNet.Net 0 1300337672 :Inappropriate Nick.
+:dope.umad.us TKL + Q * faggot Services.AbyssNet.Net 0 1300337670 :Inappropriate Nick.
+:dope.umad.us TKL + Q * wetback Services.AbyssNet.Net 0 1300337660 :Inappropriate Nick.
+:dope.umad.us TKL + Q * cunt Services.AbyssNet.Net 0 1300337639 :Inappropriate Nick.
+:dope.umad.us TKL + Q * pussy services.incognito.net 0 1300337635 :Inappropriate nick attempt
+:dope.umad.us TKL + Q * wanker Services.AbyssNet.Net 0 1300337631 :Inappropriate Nick.
+:dope.umad.us TKL + Q * cock services.incognito.net 0 1300337628 :Inappropriate nick attempt
+:dope.umad.us TKL + Q * penis services.incognito.net 0 1300337625 :Inappropriate nick attempt
+:dope.umad.us TKL + Q * cum Services.AbyssNet.Net 0 1300337622 :Inappropriate Nick.
+:dope.umad.us TKL + Q * nigger services.northfire.org 0 1300337616 :Racist.
+:dope.umad.us TKL + Q * bitch Services.AbyssNet.Net 0 1300337613 :Inappropriate Nick.
+:dope.umad.us TKL + Q * whore Services.AbyssNet.Net 0 1300337608 :Inappropriate Nick.
+:dope.umad.us TKL + Q * slut Services.AbyssNet.Net 0 1300337606 :Inappropriate Nick.
+:dope.umad.us TKL + Q * asshole Services.AbyssNet.Net 0 1300337602 :Inappropriate Nick.
+:dope.umad.us TKL + Q * fuck Services.AbyssNet.Net 0 1300337597 :Inappropriate Nick.
+:dope.umad.us TKL + Q * Shit Services.AbyssNet.Net 0 1300336524 :Inappropriate nick.
+:dope.umad.us TKL + Q * MyNameIsSh|t Services.AbyssNet.Net 0 1300166549 :age appropriate names only
+:dope.umad.us TKL + Q * IHateFriends Services.AbyssNet.Net 0 1300954436 :Reserved for services
+:dope.umad.us TKL + Q * del Services.AbyssNet.Net 0 1301034203 :ilovefriends
+:dope.umad.us TKL + Q * GamesEnforcer Services2.AbyssNet.Net 0 1300479520 :Reserved for services
+:dope.umad.us TKL + Q * AbyssNet services.flamechat.com 0 1300163994 :Reserved for services
+:dope.umad.us TKL + Q * Hub Services.AbyssNet.Net 0 1302964024 :Nick Reserved
+:dope.umad.us TKL + Q * VBot services.starfleetirc.net 0 1310691580 :Reserved for services
+:dope.umad.us TKL + Q * StarFleet services.starfleetirc.net 0 1306896952 :Reserved for services
+:dope.umad.us TKL + Q * Elrond services.starfleetirc.net 0 1309204104 :Reserved for services
+:dope.umad.us TKL + Q * Control services.starfleetirc.net 0 1308800523 :Reserved for services
+:dope.umad.us TKL + Q * Global wtf.haxradio.net 0 1291341915 :Reserved for services
+:dope.umad.us TKL + Q * HelpServ wtf.haxradio.net 0 1291341915 :Reserved for services
+:dope.umad.us TKL + Q * BotServ wtf.haxradio.net 0 1291341915 :Reserved for services
+:dope.umad.us TKL + Q * MemoServ wtf.haxradio.net 0 1291341915 :Reserved for services
+:dope.umad.us TKL + Q * HostServ wtf.haxradio.net 0 1291341915 :Reserved for services
+:dope.umad.us TKL + Q * ChanServ wtf.haxradio.net 0 1291341915 :Reserved for services
+:dope.umad.us TKL + Q * NickServ wtf.haxradio.net 0 1291341915 :Reserved for services
+:dope.umad.us TKL + Q * OperServ wtf.haxradio.net 0 1291341915 :Reserved for services
+:dope.umad.us TKL + Q * Travalias services.flamechat.com 0 1314003075 :Reserved for services
+:dope.umad.us TKL + Q * `GGirl` services.flamechat.com 0 1314144510 :nope
+:dope.umad.us TKL + Q * iamgeekgirl services.flamechat.com 0 1314144537 :yesrly
+:dope.umad.us TKL + Q * Eddie_The_Pedo services.flamechat.com 0 1314231596 :Illegal Nick
+:dope.umad.us TKL + Q * AdminBot services.flamechat.com 0 1314757326 :Reserved for services
+:dope.umad.us TKL + Q * darkdix services.northfire.org 0 1316068218 :yes
+:dope.umad.us TKL + Q * RadioBot services.northfire.org 0 1314218831 :Reserved for services
+:dope.umad.us TKL + Q * Darkness services.northfire.org 0 1313707317 :Reserved for services
+:dope.umad.us TKL + Q * RubberDucky services.northfire.org 0 1313704383 :Reserved for services
+:dope.umad.us TKL + Q * Panda services.northfire.org 0 1312603159 :Reserved for services
+:dope.umad.us TKL + Q * D10100110 services.northfire.org 0 1312527126 :Reserved for services
+:dope.umad.us TKL + Q * NF-bot services.northfire.org 0 1309016677 :Reserved for services
+:dope.umad.us TKL + Q * Northfire services.northfire.org 0 1309015139 :Reserved for services
+:dope.umad.us TKL + Q * AoR-Bot services.northfire.org 0 1300058560 :Reserved for services
+:dope.umad.us TKL + Q * s1newave services.northfire.org 0 1308920950 :Reserved for services
+:dope.umad.us TKL + Q * cForums services.northfire.org 0 1309029358 :Reserved for services
+:dope.umad.us TKL + Q * Mage-bot services.northfire.org 0 1309054143 :Reserved for services
+:dope.umad.us TKL + Q * {*}[*|*|*]: services.northfire.org 0 1309074655 :Botz
+:dope.umad.us TKL + Q * {OLD}[EB|Vista|: services.northfire.org 0 1309074726 :Botz
+:dope.umad.us TKL + Q * Satano services.northfire.org 0 1309476063 :Reserved for services
+:dope.umad.us TKL + Q H dark-dix services.northfire.org 0 1309590383 :coz i said so
+:dope.umad.us TKL + Q H nigas`life`is`hard services.northfire.org 0 1309594129 :Racistic.
+:dope.umad.us TKL + Q * MichealMyers Services.InnovaIRC.Net 0 1312863158 :Reserved for services
+:dope.umad.us TKL + Q * Photon Services.InnovaIRC.Net 0 1313017808 :Reserved for services
+:dope.umad.us TKL + Q * TheBoss services.TeenIowa.com 0 1303252480 :Reserved for services
+:dope.umad.us TKL + Q * DevNull services.TeenIowa.com 0 1303089408 :Reserved for services
+:dope.umad.us TKL + Q * NickServ2 services.TeenIowa.com 0 1303089408 :Reserved for services
+:dope.umad.us TKL + Q * ChanServ2 services.TeenIowa.com 0 1303089408 :Reserved for services
+:dope.umad.us TKL + Q * MemoServ2 services.TeenIowa.com 0 1303089408 :Reserved for services
+:dope.umad.us TKL + Q * BotServ2 services.TeenIowa.com 0 1303089408 :Reserved for services
+:dope.umad.us TKL + Q * HelpServ2 services.TeenIowa.com 0 1303089408 :Reserved for services
+:dope.umad.us TKL + Q * OperServ2 services.TeenIowa.com 0 1303089408 :Reserved for services
+:dope.umad.us TKL + Q * DevNull2 services.TeenIowa.com 0 1303089408 :Reserved for services
+:dope.umad.us TKL + Q * HostServ2 services.TeenIowa.com 0 1303089408 :Reserved for services
+:dope.umad.us TKL + Q * Global2 services.TeenIowa.com 0 1303089408 :Reserved for services
+:dope.umad.us TKL + Q * AmericanHeroes services.BlueCrystalChat.net 0 1304472501 :Reserved for services
+:dope.umad.us TKL + Q * FirstClassBot services.BlueCrystalChat.net 0 1291825347 :Reserved for services
+:dope.umad.us TKL + Q * PrettyGirls-Playmates services.BlueCrystalChat.net 0 1299792888 :Reserved for services
+:dope.umad.us TKL + Q * D4RKN3SS services.BlueCrystalChat.net 0 1299485285 :Reserved for services
+:dope.umad.us TKL + Q * Butterfly services.BlueCrystalChat.net 0 1299096874 :Reserved for services
+:dope.umad.us TKL + Q * ServicesBot services.BlueCrystalChat.net 0 1297488062 :Reserved for services
+:dope.umad.us TKL + Q * XVVGSYAbLLxceSGxlsNXq services.BlueCrystalChat.net 0 1297027882 :13 (12)
+:dope.umad.us TKL + Q * ppzNCMibWcyvDjojHnBnS services.BlueCrystalChat.net 0 1297027815 :13 (12)
+:dope.umad.us TKL + Q * vOegilltnfWULFgqqCSjXA services.BlueCrystalChat.net 0 1297027779 :13 (12)
+:dope.umad.us TKL + Q * Kermit services.ircpeople.net 0 1294239409 :Reserved for services
+:dope.umad.us TKL + Q * Agora services.ircpeople.net 0 1294239746 :Reserved for services
+:dope.umad.us TKL + Q * Qupid services.BlueCrystalChat.net 0 1293403401 :Reserved for services
+:dope.umad.us TKL + Q * CrystalBlue services.BlueCrystalChat.net 0 1291503598 :Reserved for services
+:dope.umad.us TKL + Q * BigBopper services.BlueCrystalChat.net 0 1291503851 :Reserved for services
+:dope.umad.us TKL + Q * Enforcer services.BlueCrystalChat.net 0 1291504080 :Reserved for services
+:dope.umad.us TKL + Q * vHostBot services.BlueCrystalChat.net 0 1291684212 :Reserved for services
+:dope.umad.us TKL + Q * Wondr-Womn services.friendlypalace.com 0 1292366170 :Reserved for services
+:dope.umad.us TKL + Q * LogChanMon services.friendlypalace.com 0 1291341915 :Reserved for services
+:dope.umad.us TKL + Q * RoomServ services.friendlypalace.com 0 1291341915 :Reserved for services
+:dope.umad.us TKL + Q * FP services.friendlypalace.com 0 1291341915 :Reserved for services
+:dope.umad.us TKL + Q * Dreamer services.friendlypalace.com 0 1291341915 :Reserved for services
+:dope.umad.us TKL + Q * erotica services.BlueCrystalChat.net 0 1305620031 :Reserved for services
+:dope.umad.us TKL + Q * namazdir services.BlueCrystalChat.net 0 1305727949 :not allowed here
+:dope.umad.us TKL + Q * kkklll services.BlueCrystalChat.net 0 1305727981 :not allowed here
+:dope.umad.us TKL + Q * minah^ services.BlueCrystalChat.net 0 1305728091 :not allowed here
+:dope.umad.us TKL + Q * dezutq services.BlueCrystalChat.net 0 1305728122 :not allowed here
+:dope.umad.us TKL + Q * zarrlnna^ services.BlueCrystalChat.net 0 1305728153 :not allowed here
+:dope.umad.us TKL + Q * minah^awek services.BlueCrystalChat.net 0 1305728167 :not allowed here
+:dope.umad.us TKL + Q * NitroBot services.cafebd.info 0 1306984230 :Reserved for services
+:dope.umad.us TKL + Q * VIVIANsCherryPoppin services.BlueCrystalChat.net 0 1307941384 :Reserved for services
+:dope.umad.us TKL + Q * WelcomeBot services.BlueCrystalChat.net 0 1310244800 :Reserved for services
+:dope.umad.us TKL + Q * GhostBuster services.BlueCrystalChat.net 0 1310247193 :Reserved for services
+:dope.umad.us TKL + Q * BadAss-Bot services.BlueCrystalChat.net 0 1314888732 :Reserved for services
+:dope.umad.us TKL + Q * NitesWolf services.witchesradio.org 0 1315625567 :Reserved for services
+:dope.umad.us TKL + Q * toothless-hooker services.BlueCrystalChat.net 0 1316461212 :Reserved for services
+:dope.umad.us TKL + Q * draco services.BlueCrystalChat.net 0 1317167191 :not-allowed
+:dope.umad.us TKL + Q * gfgaeovdk services.BlueCrystalChat.net 0 1318124653 :13 (12)
+:dope.umad.us TKL + Q * ZzBot services.witchesradio.org 0 1318121078 :Reserved for services
+:dope.umad.us TKL + Q * DarthVader services.witchesradio.org 0 1317748390 :Reserved for services
+:dope.umad.us TKL + Q * He||razor services.witchesradio.org 0 1317748222 :Reserved for services
+:dope.umad.us TKL + Q * Little_Sweet_Rose services.witchesradio.org 0 1317746931 :Reserved for services
+:dope.umad.us TKL + Q * StrickerBotRambo services.witchesradio.org 0 1317746705 :Reserved for services
+:dope.umad.us TKL + Q * Casper services.witchesradio.org 0 1317743032 :Reserved for services
+:dope.umad.us TKL + Q * Dev services.witchesradio.org 0 1317624212 :Reserved for services
+:dope.umad.us TKL + Q * Wiccan|Priestess services.witchesradio.org 0 1317611939 :Reserved for services
+:dope.umad.us TKL + Q * Wiccan services.witchesradio.org 0 1317611631 :Reserved for services
+:dope.umad.us TKL + Q * Bob_Marley services.flamechat.com 0 1319498118 :Reserved for services
+:dope.umad.us TKL + Q * Sxlio services.flamechat.com 0 1331608537 :Reserved for services
+:dope.umad.us TKL + Q * iloveyoutiff Services.MagicIRC 0 1331911608 :this is a gay nickname
+:dope.umad.us TKL + Q * RadioServ Services.MagicIRC 0 1332101839 :Reserved for services
+:dope.umad.us TKL + Q * mazafaka wtf.haxradio.net 0 1331881057 :Reserved for services
+:dope.umad.us TKL + Q * KissMe wtf.haxradio.net 0 1331881057 :Reserved for services
+:dope.umad.us TKL + Q * ETA wtf.haxradio.net 0 1331881057 :Reserved for services
+:dope.umad.us TKL + Q * RoBroCop wtf.haxradio.net 0 1331876813 :Reserved for services
+:dope.umad.us TKL + Q * PrideOfCause wtf.haxradio.net 0 1331876813 :Reserved for services
+:dope.umad.us TKL + Q * PenTest wtf.haxradio.net 0 1331876813 :Reserved for services
+:dope.umad.us TKL + Q * haxradio wtf.haxradio.net 0 1331876813 :Reserved for services
+:dope.umad.us TKL + Q * hs wtf.haxradio.net 0 1331876813 :Reserved for services
+:dope.umad.us TKL + Q * os wtf.haxradio.net 0 1331876813 :Reserved for services
+:dope.umad.us TKL + Q * bs wtf.haxradio.net 0 1331876813 :Reserved for services
+:dope.umad.us TKL + Q * cs wtf.haxradio.net 0 1331876813 :Reserved for services
+:dope.umad.us TKL + Q * ns wtf.haxradio.net 0 1331876813 :Reserved for services
+:dope.umad.us TKL + Q * glitch1 Services.MagicIRC 0 1332206761 :lame
+:dope.umad.us TKL + Q * glitch2 Services.MagicIRC 0 1332206771 :lame
+:dope.umad.us TKL + Q * glitch3 Services.MagicIRC 0 1332206782 :lame
+:dope.umad.us TKL + Q * GLEEKGIRL Services.MagicIRC 0 1332208326 :derp
+:dope.umad.us TKL + Q * GREEKGIRL Services.MagicIRC 0 1332208344 :derp
+:dope.umad.us TKL + Q * GEEEKGIRL Services.MagicIRC 0 1332208412 :.
+:dope.umad.us TKL + Q * sexme Services.MagicIRC 0 1332455274 :Reserved for services
+:dope.umad.us TKL + Q * ICS Services.MagicIRC 0 1333108189 :Reserved for services
+:dope.umad.us TKL + Q * g33kgir1 Services.MagicIRC 0 1333773279 :derp
+:dope.umad.us TKL + Q * *n?gg?r* Services.MagicIRC 0 1333788405 :really?
+:dope.umad.us TKL + Q * geekgirl2 Services.MagicIRC 0 1334445049 :NO
+:dope.umad.us TKL + Q * geekgirl3 Services.MagicIRC 0 1334445121 :derp
+:dope.umad.us TKL + Q * geekgirl4 Services.MagicIRC 0 1334445153 :derp
+:dope.umad.us TKL + Q H Hitler services.incognito.net 0 1334415928 :brennen die Juden!
+:dope.umad.us TKL + Q * SergeantMajor services.incognito.net 0 1334366508 :Reserved for services
+:dope.umad.us TKL + Q H Incognito`Is`A`CUNT services.incognito.net 0 1334346177 :Vulgar language. Not allowed
+:dope.umad.us TKL + Q H `Incognito` services.incognito.net 0 1334346026 :Being held for registered user
+:dope.umad.us TKL + Q H Incognito` services.incognito.net 0 1334345914 :Being held for registered user
+:dope.umad.us TKL + Q H `Incognito services.incognito.net 0 1334345749 :nope
+:dope.umad.us TKL + Q H IIncognito services.incognito.net 0 1334345697 :no
+:dope.umad.us TKL + Q H |ncognito services.incognito.net 0 1334345491 :Being held for registered user
+:dope.umad.us TKL + Q * HTML_Bot services.incognito.net 0 1334116344 :Reserved for services
+:dope.umad.us TKL + Q H Jolene_Loves_Phil services.incognito.net 0 1333920163 :Highlighting word... Change it. KGO
+:dope.umad.us TKL + Q H JD_Loves_My_Cawk_And_Bawls services.incognito.net 0 1333919754 :Inappropriate nick attempt
+:dope.umad.us TKL + Q * Incognito`Fails services.incognito.net 0 1333919732 :I do not fail. Thank you
+:dope.umad.us TKL + Q H You_Know_You_Love_Me_Ph|l services.incognito.net 0 1333919692 :I'm not homo
+:dope.umad.us TKL + Q H Incognito_Is_No_FUN services.incognito.net 0 1333919562 :This shit highlights me... No... Just no....... Pick something WITHOUT 'Incognito' in it
+:dope.umad.us TKL + Q H Y_U_MAD_Incognito services.incognito.net 0 1333919518 :This shit highlights me... No... Just no....... Pick something WITHOUT 'Incognito' in it
+:dope.umad.us TKL + Q H Incognito_Is_A_Buzz_Kill services.incognito.net 0 1333919456 :This shit highlights me... No... Just no....... Pick something WITHOUT 'Incognito' in it
+:dope.umad.us TKL + Q H Lemon_Party_Dot_Org services.incognito.net 0 1333916053 :Hints towards website with a potential virus
+:dope.umad.us TKL + Q * Dick services.incognito.net 0 1333913698 :Inappropriate nick attempt
+:dope.umad.us TKL + Q * Nigglet services.incognito.net 0 1333913688 :Inappropriate nick attempt
+:dope.umad.us TKL + Q * Niglet services.incognito.net 0 1333913685 :Inappropriate nick attempt
+:dope.umad.us TKL + Q * Niggar services.incognito.net 0 1333913674 :Inappropriate nick attempt
+:dope.umad.us TKL + Q H dildo services.incognito.net 0 1333913647 :Inappropriate nick attempt
+:dope.umad.us TKL + Q H DicksErect services.incognito.net 0 1333913640 :Inappropriate nick attempt
+:dope.umad.us TKL + Q H FuckingHomoBitch services.incognito.net 0 1333913613 :Inappropriate nick attempt
+:dope.umad.us TKL + Q H You`reACunt services.incognito.net 0 1333913574 :Inappropriate nick attempt
+:dope.umad.us TKL + Q H FuckYou services.incognito.net 0 1333913539 :Inappropriate nick attempt
+:dope.umad.us TKL + Q H fatchicksluvme services.incognito.net 0 1333909654 :Insulting word used
+:dope.umad.us TKL + Q H FunDip services.incognito.net 0 1333903656 :Inappropriate nick attempt
+:dope.umad.us TKL + Q H gummo services.incognito.net 0 1333868912 :Queercommons oper nicks are not allowed here
+:dope.umad.us TKL + Q * Queercommons services.incognito.net 0 1333868898 :oper nicks are not allowed here
+:dope.umad.us TKL + Q H jagermeister services.incognito.net 0 1333868761 :Being held for registered user
+:dope.umad.us TKL + Q * *pimp* services.incognito.net 0 1333855412 :Inappropriate word/phrase in nick
+:dope.umad.us TKL + Q H Suck_My_Dick_Bitch services.incognito.net 0 1333854941 :Inappropriate Nick attempt
+:dope.umad.us TKL + Q * Barbie services.incognito.net 0 1333854783 :Reserved for services
+:dope.umad.us TKL + Q * ShadowChat services.incognito.net 0 1333849853 :Reserved for services
+:dope.umad.us TKL + Q * DATA services.incognito.net 0 1333833486 :Reserved for services
+:dope.umad.us TKL + Q * ProjectC services.incognito.net 0 1333827906 :Reserved for services
+:dope.umad.us TKL + Q * Wuuuchaaah services.incognito.net 0 1333822864 :Reserved for services
+:dope.umad.us TKL + Q * MandyBot services.incognito.net 0 1333821177 :Reserved for services
+:dope.umad.us TKL + Q * AriaBerry services.incognito.net 0 1333602179 :Reserved for services
+:dope.umad.us TKL + Q H Incognito-Bot services.incognito.net 0 1333513361 :Innapropriate nick attempt
+:dope.umad.us TKL + Q H fruity_fingers services.incognito.net 0 1333510283 :inappropriate nick attempt
+:dope.umad.us TKL + Q * Supporter services.incognito.net 0 1333509362 :Reserved for services
+:dope.umad.us TKL + Q * Fawkes services.incognito.net 0 1333428784 :Reserved for services
+:dope.umad.us TKL + Q * Pwner services.incognito.net 0 1333393874 :Reserved for services
+:dope.umad.us TKL + Q * `a Services.MagicIRC 0 1334459680 :derp.
+:dope.umad.us TKL + Q * |a| Services.MagicIRC 0 1334460074 :stop.
+:dope.umad.us TKL + Q * Kony Services.MagicIRC 0 1334461601 :I fucking hate that kid
+:dope.umad.us TKL + Q * PhilIsAF4gg0t Services.MagicIRC 0 1334540592 :Insulting opers
+:dope.umad.us TKL + Q * c0mrade services.flamechat.com 0 1331855678 :derp
+:dope.umad.us TKL + Q * roby services.flamechat.com 0 1331855601 :um no
+:dope.umad.us TKL + Q * rekcah services.flamechat.com 0 1331855384 :newp
+:dope.umad.us TKL + Q * LulzSec services.flamechat.com 0 1331853846 :hi
+:dope.umad.us TKL + Q * Fionn services.starfleetirc.net 0 1308874519 :Reserved for services
+:dope.umad.us TKL + Q * HellHound services.flamechat.com 0 1314414084 :Reserved for services
+:dope.umad.us TKL + Q * Sarah Services.InnovaIRC.Net 0 1307584792 :Reserved for services
+:dope.umad.us TKL + Q * princess Services.MagicIRC 0 1334699450 :NOPE
+:dope.umad.us TKL + Q * KuKluxKlan Services.MagicIRC 0 1334699661 :Racist
+:dope.umad.us TKL + Q * KluKluxKlan Services.MagicIRC 0 1334699676 :Close to racist
+:dope.umad.us TKL + Q * KulKluxKlan Services.MagicIRC 0 1334699686 :Close to racist
+:dope.umad.us TKL + Q * KKK Services.MagicIRC 0 1334699863 :You racist motherfucker. You can't have this nick you jew!
+:dope.umad.us TKL + Q * nalKxulKluK Services.MagicIRC 0 1334699891 :Backwards bitch
+:dope.umad.us TKL + Q * geekboy Services.MagicIRC 0 1334800058 :derp
+:dope.umad.us TKL + Q * geekboi Services.MagicIRC 0 1334800084 :overdone
+:dope.umad.us TKL + Q * Zachette Services.MagicIRC 0 1334800155 :no
+:dope.umad.us TKL + Q * incognigger Services.MagicIRC 0 1334800216 :racist
+:dope.umad.us TKL + Q H Gewgle Services.EvangelionIRC.com 0 1315887936 :Reserved
+:dope.umad.us TKL + Q * gewfzee services.gewfie.info 0 1309816829 :Reserved for services
+:dope.umad.us TKL + Q * Love services.gewfie.info 0 1309816829 :Reserved for services
+:dope.umad.us TKL + Q * Lulus_Pet services.gewfie.info 0 1309816829 :Reserved for services
+:dope.umad.us TKL + Q * Minecraft services.gewfie.info 0 1309816829 :Reserved for services
+:dope.umad.us TKL + Q * Squirt services.gewfie.info 0 1309816829 :Reserved for services
+:dope.umad.us TKL + Q * TeenChatServ services.gewfie.info 0 1309816829 :Reserved for services
+:dope.umad.us TKL + Q * {]-Vinamp-[} Services.EvangelionIRC.com 0 1309808001 :Reserved for services
+:dope.umad.us TKL + Q * Yogi_Bear Services.EvangelionIRC.com 0 1309808001 :Reserved for services
+:dope.umad.us TKL + Q * TeddyRuxpin Services.EvangelionIRC.com 0 1309808001 :Reserved for services
+:dope.umad.us TKL + Q * Spirit Services.EvangelionIRC.com 0 1309808001 :Reserved for services
+:dope.umad.us TKL + Q * Secretary_Spinkter Services.EvangelionIRC.com 0 1309808001 :Reserved for services
+:dope.umad.us TKL + Q * s3x Services.EvangelionIRC.com 0 1309808001 :Reserved for services
+:dope.umad.us TKL + Q * RetroBot Services.EvangelionIRC.com 0 1309808001 :Reserved for services
+:dope.umad.us TKL + Q * Radio|Bot Services.EvangelionIRC.com 0 1309808001 :Reserved for services
+:dope.umad.us TKL + Q * Power9 Services.EvangelionIRC.com 0 1312952320 :Reserved for services
+:dope.umad.us TKL + Q * Oreo Services.EvangelionIRC.com 0 1309808001 :Reserved for services
+:dope.umad.us TKL + Q * Numbah1 Services.EvangelionIRC.com 0 1313639061 :Reserved for services
+:dope.umad.us TKL + Q * lollipop Services.EvangelionIRC.com 0 1330997463 :Reserved for services
+:dope.umad.us TKL + Q * Evangelion Services.EvangelionIRC.com 0 1309808001 :Reserved for services
+:dope.umad.us TKL + Q * Character[BOT] Services.EvangelionIRC.com 0 1309808001 :Reserved for services
+:dope.umad.us TKL + Q * ChainedOne Services.EvangelionIRC.com 0 1309808001 :Reserved for services
+:dope.umad.us TKL + Q * Caffinated Services.EvangelionIRC.com 0 1309808001 :Reserved for services
+:dope.umad.us TKL + Q * base Services.EvangelionIRC.com 0 1309808001 :Reserved for services
+:dope.umad.us TKL + Q * Asylum Services.EvangelionIRC.com 0 1314912214 :Reserved for services
+:dope.umad.us TKL + Q * GEEKGIRL_IS_GOATSE_V2 Services.MagicIRC 0 1336964293 :bai
+:dope.umad.us TKL + Q * GEEKGIRL_IS_GOATSE_V22 Services.MagicIRC 0 1336964314 :bai
+:dope.umad.us TKL + Q * GEeEKGIRL_IS_GOATSE_V2 Services.MagicIRC 0 1336964339 :bai
+:dope.umad.us TKL + Q * g33kg1rl Services.MagicIRC 0 1337128932 :newp
+:dope.umad.us TKL + Q * g33kg1r1 Services.MagicIRC 0 1337128954 :newp
+:dope.umad.us TKL + Q * girlgeek Services.MagicIRC 0 1337128976 :newp
+:dope.umad.us TKL + Q * g33kgril Services.MagicIRC 0 1337129061 :derp
+:dope.umad.us TKL + Q * g33kgirl Services.MagicIRC 0 1337129075 :DERP
+:dope.umad.us TKL + Q * geekg1rl Services.MagicIRC 0 1337129119 :derp
+:dope.umad.us TKL + Q * geelgirk Services.MagicIRC 0 1337129158 :derp
+:dope.umad.us TKL + Q * googoobear Services.MagicIRC 0 1337143834 :no
+:dope.umad.us TKL + Q * masturbation Services.AbyssNet.Net 0 1300337772 :Inappropriate Nick.
+:dope.umad.us TKL + Q * masterbation Services.AbyssNet.Net 0 1300337775 :Inappropriate Nick.
+:dope.umad.us TKL + Q * Kerry7 services.TheBlackFleet.Info 0 1307633633 :Asshat
+:dope.umad.us TKL + Q * Klo services.TheBlackFleet.Info 0 1307603317 :Asshat
+:dope.umad.us TKL + Q * Gold-Dragon services.starfleetirc.net 0 1312339396 :Reserved for services
+:dope.umad.us TKL + Q * Abused services.flamechat.com 0 1310117022 :Reserved for services
+:dope.umad.us TKL + Q * BetaSecurity services.flamechat.com 0 1310117022 :Reserved for services
+:dope.umad.us TKL + Q * Bub services.flamechat.com 0 1312665388 :Reserved for services
+:dope.umad.us TKL + Q * CupCake services.flamechat.com 0 1310117022 :Reserved for services
+:dope.umad.us TKL + Q * ExternalBot services.flamechat.com 0 1312340220 :Reserved for services
+:dope.umad.us TKL + Q * FlameChat services.flamechat.com 0 1310117022 :Reserved for services
+:dope.umad.us TKL + Q * HelpBot services.friendlypalace.com 0 1291341915 :Reserved for services
+:dope.umad.us TKL + Q * Insane-Asylum services.flamechat.com 0 1310117022 :Reserved for services
+:dope.umad.us TKL + Q * Kinky services.witchesradio.org 0 1310117022 :Reserved for services
+:dope.umad.us TKL + Q * Nepal services.flamechat.com 0 1310117022 :Reserved for services
+:dope.umad.us TKL + Q * Ownage services.flamechat.com 0 1310117022 :Reserved for services
+:dope.umad.us TKL + Q * PinkSmurf services.flamechat.com 0 1310117022 :Reserved for services
+:dope.umad.us TKL + Q * PSPBot services.flamechat.com 0 1310117022 :Reserved for services
+:dope.umad.us TKL + Q * PurpleSmurf services.flamechat.com 0 1310117022 :Reserved for services
+:dope.umad.us TKL + Q * R3ap3r services.flamechat.com 0 1310117022 :Reserved for services
+:dope.umad.us TKL + Q * Santa services.flamechat.com 0 1310117022 :Reserved for services
+:dope.umad.us TKL + Q * TheGame services.flamechat.com 0 1310117022 :Reserved for services
+:dope.umad.us TKL + Q * vHostServ services.flamechat.com 0 1291680017 :Reserved for services
+:dope.umad.us TKL + Q * GGirl services.flamechat.com 0 1313186002 :Too close to an admins nickname.
+:dope.umad.us TKL + Q * Trollface services.flarechat.net 0 1313105106 :Reserved for services
+:dope.umad.us TKL + Q * TalkBot services.flarechat.net 0 1313105106 :Reserved for services
+:dope.umad.us TKL + Q * oCdBot services.flarechat.net 0 1313105106 :Reserved for services
+:dope.umad.us TKL + Q * NyanServ services.flarechat.net 0 1313105106 :Reserved for services
+:dope.umad.us TKL + Q * LoungeBot services.flarechat.net 0 1313105106 :Reserved for services
+:dope.umad.us TKL + Q * LameBot services.flarechat.net 0 1313105106 :Reserved for services
+:dope.umad.us TKL + Q * FlareChat services.flarechat.net 0 1313105106 :Reserved for services
+:dope.umad.us TKL + Q * Acantha Services.InnovaIRC.Net 0 1307584792 :Reserved for services
+:dope.umad.us TKL + Q * Angel Services.InnovaIRC.Net 0 1307584792 :Reserved for services
+:dope.umad.us TKL + Q * April Services.InnovaIRC.Net 0 1307584792 :Reserved for services
+:dope.umad.us TKL + Q * Atlantice Services.InnovaIRC.Net 0 1307584792 :Reserved for services
+:dope.umad.us TKL + Q * Aviva Services.InnovaIRC.Net 0 1307584792 :Reserved for services
+:dope.umad.us TKL + Q * Baltazar Services.InnovaIRC.Net 0 1307584792 :Reserved for services
+:dope.umad.us TKL + Q * Beau Services.InnovaIRC.Net 0 1307584792 :Reserved for services
+:dope.umad.us TKL + Q * Bouncer services.flamechat.com 0 1307584792 :Reserved for services
+:dope.umad.us TKL + Q * Chris Services.InnovaIRC.Net 0 1307584792 :Reserved for services
+:dope.umad.us TKL + Q * Christy Services.InnovaIRC.Net 0 1307584792 :Reserved for services
+:dope.umad.us TKL + Q * Cindy Services.InnovaIRC.Net 0 1307584792 :Reserved for services
+:dope.umad.us TKL + Q * Claudia Services.InnovaIRC.Net 0 1307584792 :Reserved for services
+:dope.umad.us TKL + Q * Cleo Services.InnovaIRC.Net 0 1307584792 :Reserved for services
+:dope.umad.us TKL + Q * Crimson Services.InnovaIRC.Net 0 1307584792 :Reserved for services
+:dope.umad.us TKL + Q * Dakoda Services.InnovaIRC.Net 0 1307584792 :Reserved for services
+:dope.umad.us TKL + Q * Damian Services.InnovaIRC.Net 0 1307584792 :Reserved for services
+:dope.umad.us TKL + Q * Dana Services.InnovaIRC.Net 0 1307584792 :Reserved for services
+:dope.umad.us TKL + Q * Dilana Services.InnovaIRC.Net 0 1307584792 :Reserved for services
+:dope.umad.us TKL + Q * Discordia Services.InnovaIRC.Net 0 1307584792 :Reserved for services
+:dope.umad.us TKL + Q * Elektra Services.InnovaIRC.Net 0 1307584792 :Reserved for services
+:dope.umad.us TKL + Q * Fugit Services.InnovaIRC.Net 0 1307584792 :Reserved for services
+:dope.umad.us TKL + Q * Ginger Services.InnovaIRC.Net 0 1307584792 :Reserved for services
+:dope.umad.us TKL + Q * Grimlock Services.InnovaIRC.Net 0 1307584792 :Reserved for services
+:dope.umad.us TKL + Q * Harley Services.InnovaIRC.Net 0 1307584792 :Reserved for services
+:dope.umad.us TKL + Q * Jewel Services.InnovaIRC.Net 0 1307584792 :Reserved for services
+:dope.umad.us TKL + Q * Jinx Services.InnovaIRC.Net 0 1307584792 :Reserved for services
+:dope.umad.us TKL + Q * Laura Services.InnovaIRC.Net 0 1307584792 :Reserved for services
+:dope.umad.us TKL + Q * Levana Services.InnovaIRC.Net 0 1307584792 :Reserved for services
+:dope.umad.us TKL + Q * Lilly Services.InnovaIRC.Net 0 1307584792 :Reserved for services
+:dope.umad.us TKL + Q * Lucy Services.InnovaIRC.Net 0 1307584792 :Reserved for services
+:dope.umad.us TKL + Q * Lusian Services.InnovaIRC.Net 0 1307584792 :Reserved for services
+:dope.umad.us TKL + Q * Madison Services.InnovaIRC.Net 0 1307584792 :Reserved for services
+:dope.umad.us TKL + Q * Maggie Services.InnovaIRC.Net 0 1307584792 :Reserved for services
+:dope.umad.us TKL + Q * Medusa Services.InnovaIRC.Net 0 1307584792 :Reserved for services
+:dope.umad.us TKL + Q * Megan Services.InnovaIRC.Net 0 1307584792 :Reserved for services
+:dope.umad.us TKL + Q * Myranda Services.InnovaIRC.Net 0 1307584792 :Reserved for services
+:dope.umad.us TKL + Q * Octavia Services.InnovaIRC.Net 0 1307584792 :Reserved for services
+:dope.umad.us TKL + Q * Olympia Services.InnovaIRC.Net 0 1307584792 :Reserved for services
+:dope.umad.us TKL + Q * Pagan Services.InnovaIRC.Net 0 1307584792 :Reserved for services
+:dope.umad.us TKL + Q * Pandora Services.InnovaIRC.Net 0 1307584792 :Reserved for services
+:dope.umad.us TKL + Q * Raven Services.InnovaIRC.Net 0 1307584792 :Reserved for services
+:dope.umad.us TKL + Q * Rose Services.InnovaIRC.Net 0 1307584792 :Reserved for services
+:dope.umad.us TKL + Q * Salem Services.InnovaIRC.Net 0 1307584792 :Reserved for services
+:dope.umad.us TKL + Q * Sebastian Services.InnovaIRC.Net 0 1307584792 :Reserved for services
+:dope.umad.us TKL + Q * Spike Services.InnovaIRC.Net 0 1307584792 :Reserved for services
+:dope.umad.us TKL + Q * Tempest Services.InnovaIRC.Net 0 1307584792 :Reserved for services
+:dope.umad.us TKL + Q * Tempus Services.InnovaIRC.Net 0 1307584792 :Reserved for services
+:dope.umad.us TKL + Q * Thor Services.InnovaIRC.Net 0 1307584792 :Reserved for services
+:dope.umad.us TKL + Q * UnoBot Services.InnovaIRC.Net 0 1307584792 :Reserved for services
+:dope.umad.us TKL + Q * Zenon Services.InnovaIRC.Net 0 1307584792 :Reserved for services
+:dope.umad.us TKL + Q * Zeus Services.InnovaIRC.Net 0 1307584792 :Reserved for services
+:dope.umad.us TKL + Q * Adrenic services.flamechat.com 0 1313716422 :Reserved for services
+:dope.umad.us TKL + Q * Youtube services.flamechat.com 0 1323638715 :Reserved for services
+:dope.umad.us TKL + Q * Dopey services.flamechat.com 0 1310117022 :Reserved for services
+:dope.umad.us TKL + Q * SexPuppet services.flamechat.com 0 1327024936 :Reserved for services
+:dope.umad.us TKL + Q * geekgril services.flamechat.com 0 1327798999 :fgjld;kfjg;lkdfjg
+:dope.umad.us TKL + Q * DarkAngel services.flamechat.com 0 1328027210 :Reserved for services
+:dope.umad.us TKL + Q * FUCKYOUSPAWNGIMMEPERCENT services.flamechat.com 0 1328564840 :derp
+:dope.umad.us TKL + Q * FUCKYOUSPAWN services.flamechat.com 0 1328564978 :hi
+:dope.umad.us TKL + Q * [420] services.flamechat.com 0 1328673407 :Reserved for services
+:dope.umad.us TKL + Q * WarGrim services.flamechat.com 0 1330992565 :Reserved for services
+:dope.umad.us TKL + Q * Skittles Services.MagicIRC 0 1331418175 :Reserved for services
+:dope.umad.us TKL + Q * Inc0gnito Services.MagicIRC 0 1335405518 :No confusion allowed
+:dope.umad.us TKL + Q * LES Services.MagicIRC 0 1335435028 :Reserved for services
+:dope.umad.us TKL + Q * gCode Services.MagicIRC 0 1332110678 :Reserved for services
+:dope.umad.us TKL + Q * ActiveBot Services.MagicIRC 0 1335659315 :Reserved for services
+:dope.umad.us TKL + Q * Athena Services.InnovaIRC.Net 0 1335636865 :Reserved for services
+:dope.umad.us TKL + Q * geekgirl_the_sloth Services.MagicIRC 0 1337652169 :.
+:dope.umad.us TKL + s * *68.174.223.94 sup_g!sup_g@sup-g.stayoutmy.biz 0 1332298734 :nope
+:dope.umad.us TKL + s * *80.63.56.147 sup_g!sup_g@localhost 0 1332787287 :oh
+:dope.umad.us TKL + s * 173.236.49.165 geekgirl!~godie@Staff.MagicIRC.Net 0 1333676989 :derp
+:dope.umad.us TKL + s * 173.236.49.* geekgirl!~godie@Staff.MagicIRC.Net 0 1333677025 :derp
+:dope.umad.us TKL + s * 199.127.226.4 Kyle!~FuckYou@incog-5596432F.ed.shawcable.net 1344522513 1334522514 :Dumb BNC.
+:dope.umad.us TKL + s * 199.127.226.24 Angie`!Angie@Network-Administrator 0 1334877212 :no reason
+:dope.umad.us TKL + s * *173.236.49.165 sup_g!sup_g@localhost 0 1333676661 :ok
+NETINFO 1001 1338795868 2310 MD5:a2b6e5cbcc8e9c89653eeb11ceb74c15 0 0 0 :umad
+:dope.umad.us EOS
+PING :dope.umad.us
+PING :dope.umad.us
+PING :dope.umad.us
+PING :dope.umad.us

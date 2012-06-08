@@ -1,0 +1,13 @@
+                                     _    _   
+  __ _ _ __  _   _ _ __  _ __   __ _| | _(_)  
+ / _` | '_ \| | | | '_ \| '_ \ / _` | |/ / |  
+| (_| | | | | |_| | | | | | | | (_| |   <| |  
+ \__,_|_| |_|\__,_|_| |_|_| |_|\__,_|_|\_\_|  
+
+                               - they exist!  
+
+  		     Anunnaki IRC bot daemon
+		  	      anunnaki-1.0.0
+
+@author: Brock Ramsey <brock@spokey.org>
+

@@ -1,0 +1,23 @@
+package facebook;
+
+use strict;
+use warnings;
+use WWW::Facebook::API;
+
+BEGIN {
+    triggers->add('channel', 'god', '.fbook', 'facebook->parse($user, $chan, $msg);');
+}
+
+parse {
+    my ($user, $chan, @data) = ($_[1], $_[2], split " ", $_[3]);
+   
+    my $client = WWW::Facebook::API->new(
+	desktop => 0,
+	api_key => '',
+	secret  => ''
+    );
+   
+    $irc::socket->send("PRIVMSG $chan :$client\r\n");
+}
+
+1;

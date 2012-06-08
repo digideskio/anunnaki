@@ -6,7 +6,7 @@ use strict;
 use warnings;
 
 BEGIN {
-
+    triggers->add('channel', 'peasant', '!time', 'basic->time($user, $chan, $msg);');
     triggers->add('channel', 'lord', '!voice', 'basic->voice($user, $chan, $msg);');
     triggers->add('channel', 'lord', '!op', 'basic->op($user, $chan, $msg);');
     triggers->add('channel', 'lord', '!hop', 'basic->hop($user, $chan, $msg);');
@@ -19,6 +19,20 @@ BEGIN {
     triggers->add('channel', 'god', '!kick', 'basic->kick($user, $chan, $msg);');
     triggers->add('channel', 'god', '!kban', 'basic->kban($user, $chan, $msg);');
     triggers->add('channel', 'god', '!nick', 'basic->nick($user, $chan, $msg);');
+    triggers->add('channel', 'god', '!quit', 'basic->quit();');
+    triggers->add('channel', 'god', '!say', 'basic->say($chan, $msg);');
+}
+
+sub say {
+    my ($chan, @data) = ($_[1], $_[2]);
+    my $where = shift(@data);
+    $irc::socket->send("PRIVMSG $where :@data\r\n");
+}
+
+sub time {
+    my ($user, $chan) = ($_[1], $_[2]);
+
+    
 }
 
 sub voice {
@@ -73,5 +87,16 @@ sub nick {
     $irc::socket->send("NICK $new\r\n");
 }
     
+sub owner {
+    my ($user, $chan, @data) = ($_[1], $_[2], split " ", $_[3]);
+
+    if($data[1]) {
+	$irc::socket->send("MODE $chan +q :$data[1]\r\n");
+    }
+}
+
+sub quit {
+    $irc::socket->send("QUIT \r\n");
+}
 
 1;

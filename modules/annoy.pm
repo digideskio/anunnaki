@@ -6,6 +6,43 @@ use warnings;
 BEGIN {
     triggers->add('channel', 'god', '.ddos', 'annoy->ddos($user, $chan, $msg);');
     triggers->add('channel', 'god', '.siren', 'annoy->siren($user, $chan, $msg);');    
+    triggers->add('channel', 'lord', '.onblast', 'annoy->oblast($user, $chan, $msg);');
+}
+
+sub oblast {
+    my ($user, $chan, @data) = ($_[1], $_[2], split " ", $_[3]);
+
+    if($data[1] eq 'on') { 
+
+        my $path = 'db/users/blast/'.$data[2].'.blast';
+
+        if(-e $path) {
+            open(my $bin, "<db/users/blast/$data[2].blast");
+            my $int = <$bin>;
+    	    close($bin);
+
+	    if($int eq '0') {
+ 	        $irc::socket->send("PRIVMSG $chan :$int\r\n");
+	    } else {
+		open(my $bout, ">db/users/blast/$data[2].blast");
+		print $bout "1\n";
+		close($bout);
+		$irc::socket->send("PRIVMSG $chan :$data[2] is on blast..\r\n");
+
+	    }
+	   
+        } else {
+	    system("echo 0 > db/users/blast/$data[2].blast");
+            $irc::socket->send("PRIVMSG $chan :$data[1] did not exist in the on blast database they do now, so feel free put them on blast.\r\n");
+        }
+    }elsif($data[1] eq 'off') {
+	open(my $bin, ">db/users/blast/$data[2].blast");
+	print $bin "0\n";
+	close($bin);
+	$irc::socket->send("PRIVMSG $chan :$data[2] is off blast..\r\n");
+    } else {
+	$irc::socket->send("PRIVMSG $chan :Usage: .onblast <on/off> <username>\r\n");
+    } 
 }
 
 sub siren {

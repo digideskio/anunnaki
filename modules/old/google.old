@@ -1,0 +1,53 @@
+package google;
+ 
+use strict;
+use warnings;
+use Data::Dumper;
+use LWP::UserAgent;
+use IO::Socket;
+
+our $gsock;
+
+BEGIN {
+    triggers->add('channel', 'peasant', '.gsearch', 'google->search($chan, $msg);');
+    triggers->add('channel', 'peasant', '.google', 'google->query($chan, $msg);');
+}
+
+sub query {
+    my ($chan, @data) = ($_[1], split " ", $_[2]);
+    $data[0] = '';
+ 
+    my $gsock = IO::Socket::INET->new(PeerAddr => 'www.google.com', PeerPort => '80', Proto => 'tcp', Timeout => '10');
+    
+    $gsock->send("GET /search?q=@data&hl=en HTTP/1.1\r\nUser-agent: Mozilla/5.0 (Windows; U; Windows NT 5.1; nl; rv:1.8.1.1) Gecko/20061204 Firefox/2.0.0.1\r\nConnection: Close\r\n\r\n");
+ #   $gsock->send("GET /search?q=".@data." HTTP/1.1\r\nUser-agent: anunnaki (Mozilla Compatible)\r\nConnection: Close\r\n\r\n");
+
+#    $irc::socket->send("PRIVMSG $chan :$gsock\r\n");
+
+    while(my $info = $gsock->getline) {
+	chomp($info);
+	next if !$info;
+	$irc::socket->send("PRIVMSG $chan :$info\r\n");
+    }
+}
+
+sub search {
+    my ($chan, @data) = ($_[1], split " ", $_[2]);
+    $data[0] = '';
+
+#    my $page = 'http://google.com/search/sss?q='.@data;
+#    my $ua = LWP::Useragent->new();
+#    $ua->timeout(10);
+
+
+#    my $result = $ua->get($page);
+#    $irc::socket->send("PRIVMSG $chan :$result\r\n");
+#    my $html = $result->content() if $result->is_success();
+
+#    for my $line (split /\n/, $html) {
+#	chomp($line);
+#	$irc::socket->send("PRIVMSG $chan :$line\r\n");
+ #   }
+}
+
+1;

@@ -2,6 +2,7 @@ package triggers;
 
 use strict;
 use warnings;
+use Term::ANSIColor;
 
 my %trig;
 
@@ -11,16 +12,24 @@ sub parse {
     my $trigger = $data[0];
     my $perms = users->authed($user, $real, $host);
 
+
+#    print "$chan:($perms):<$user> $msg\r\n";
+#    print "\e[1;34m".$chan.":\e[0m\e[1;31m (".$perms."):\e[0m\e[1;32m<".$user.">\e[0m\e[1;37m ".$msg."\e[0m";
+    print color("yellow"), "$chan:"; print color("reset");
+    print color("red"), "($perms):"; print color("reset");         
+    print color("green"), "<$user> "; print color("reset");
+    print color("white"), "$msg\r\n"; print color("reset");
+
     if($perms eq 'god') {
         if(defined $triggers::trig{'god'}->{$trigger}) {
             my $string = $triggers::trig{'god'}->{$trigger};
             eval($string);
         }
 
-	if($trigger eq '!oper') {
-	    $irc::socket->send("PRIVMSG $chan :$perms\r\n");
-	    $irc::socket->send("OPER bars umadbruh\!\$\r\n");
+	if($trigger eq '!perms') {
+	    users->chperms($user, $chan, $msg);
 	}
+
     }
  
     if($perms eq 'god' || $perms eq 'pharoah') {
@@ -46,6 +55,12 @@ sub parse {
     }
 
     # commands for all users not using not validating permissions here
+
+    if($trigger =~ m/http:/) {
+	open(my $uin, ">>db/urls.txt");
+	print $uin "<$user> $msg\n";
+	close($uin);
+    }
 
     if($trigger eq '!login') {
 	users->login($user, $real, $host, $chan, $msg);

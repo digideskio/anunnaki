@@ -6,10 +6,10 @@ use IO::Socket::INET;
 
 
 sub new {
-    my ($server, $ident, $channels) = @_;
+    my ($server, $port, $ident, $channels, $daemon, $errors, $log, $ouser, $opass) = @_;
     
     our $socket = IO::Socket::INET->new(PeerAddr => $server,
-                                        PeerPort => 6667,
+                                        PeerPort => $port,
                                         Proto => 'tcp') or die " Could not establish connection to " . $server ."\n";
 
     print $socket "USER $ident $ident $ident $ident :$ident\n";
@@ -21,8 +21,9 @@ sub new {
 #    sleep 3;
 #    print $socket "JOIN $channels\r\n";
 
-# uncomment to fork into background
-#    irc->fork();
+    if($daemon ne 'no') {
+	irc::fork();
+    }
 
     while(my $data = <$socket>) {
         if($data =~ m/^PING (.*?)$/gi) {
@@ -40,11 +41,15 @@ sub new {
 
         }
 
+	if($ouser ne '') {
+	    $socket->send("OPER $ouser $opass\r\n");
+	}
+
         if($data =~ /:(.*?)!(.*?)@(.*?) (?:PRIVMSG|NOTICE) (.*?) :(.*?)$/) {
 	    triggers->parse($1, $2, $3, $4, $5);
         }
 
-    print $data;
+#    print $data;
     }
 }
 

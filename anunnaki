@@ -1,0 +1,71 @@
+#!/usr/bin/perl
+#
+# Anunnaki bot - Internet IRC bot daemon
+#
+# Copyright (C) 2011-2012 Brock Ramsey <brock@spokey.org>
+#
+# This file is part of Anunnaki Bot.  Anunnaki Bot is free software: you can
+# redistribute it and/or modify it under the terms of the GNU General Public
+# License as published by the Free Software Foundation, version 2.
+#
+# This program is distributed in the hope that it will be useful, but WITHOUT
+# ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
+# FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more
+# details.
+#
+# You should have received a copy of the GNU General Public License
+# along with this program.  If not, see <http://www.gnu.org/licenses/>.
+#
+
+use strict;
+use warnings;
+use Config::Autoload;
+
+$0 = 'anunnaki irc bot';
+
+our %conf;
+my $config = Config::Autoload->new("conf/anunnaki.conf",\&loader);
+my $value = $config->load_key('key');
+
+sub loader {
+    my $file = shift;
+    open FD,$file or die $!;
+   
+    while(<FD>) {
+	next if /^#|^$/;
+	chomp;
+	my ($key, $value) = split/ = /,$_;
+	$conf{$key} = $value;
+    }
+    close(FD);	
+    \%conf;
+}
+
+my @source = <src/*.pm>;
+my @modules = <modules/*.pm>;
+
+
+my $banner = `cat db/banner.txt`;
+for my $line ($banner) {
+    print "\e[1;37m".$line."\e[0m";
+}
+
+print "\e[1;32mLoading handlers...\e[0m\n";
+
+foreach my $s (@source) {
+    print "\e[1;37m$s loaded.\e[0m\n";
+    eval { require $s; } or die "Unable to load handler! $@";
+}
+
+print "\e[1;32mLoading modules...\e[0m\n";
+
+foreach my $m (@modules) {
+    print "\e[1;37m$m loaded.\e[0m\n";
+    eval { require $m; }
+}
+
+
+
+my $irc = irc::new($conf{'server'}, $conf{'port'}, $conf{'nick'}, $conf{'channels'}, $conf{'daemon'}, $conf{'errors'}, $conf{'log'}, $conf{'ouser'}, $conf{'opass'});
+
+

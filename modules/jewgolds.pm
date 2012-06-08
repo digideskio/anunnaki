@@ -28,14 +28,14 @@ sub gamble {
    my $range = 50;
    my $rand = int(rand($range));
 
-   if($rand > 90) {
+   if($rand > 25) {
       $irc::socket->send("PRIVMSG $channel Greedy jew \x02$nickname\x02 has gambled and won \x02$rand\x02 jewgolds.\r\n");
       open(my $GOLDOUT,">db/golds/$nickname.gold");
       my $newgold = $golds + $rand;
       print $GOLDOUT "$newgold";
       close($GOLDOUT);
    }
-   if($rand < 50) {
+   if($rand < 25) {
       $irc::socket->send("PRIVMSG $channel Greedy jew \x02$nickname\x02 has gambled and lost \x02$rand\x02 jewgolds.\r\n");
       open(my $GOLDOUT,">db/golds/$nickname.gold");
       my $newgold = $golds - $rand;

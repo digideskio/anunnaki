@@ -1,0 +1,26 @@
+package httpd;
+
+use strict;
+use warnings;
+use threads;
+use IO::Socket;
+
+our $http_sock;
+our %http;
+our %thread;
+
+$http{'name'} = 'Anunnaki Webserver 0.1-a';
+$http{'host'} = '174.34.147.216';
+$http{'port'} = '8080';
+
+sub start {
+    my $http_sock = IO::Socket::INET->new(Proto => 'tcp', LocalAddr => $http{'host'}, LocalPort => $http{'port'}, Listen => 4, Reuse => 1) || die ("Error: $!\n");
+
+    while($http_sock->accept()) {
+	$http->sock->autoflush(1);
+	sleep 1;
+	$threads{0} = threads->new( sub { httpd->parse(0); })->detach();
+	next;
+    }
+    return 0;
+}

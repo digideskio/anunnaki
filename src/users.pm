@@ -24,7 +24,7 @@ sub info {
 
 	for my $line (sort @tmpdat) {
             next if $line =~ m/^#(.*?)$/i;
-            print $line;
+#            print $line;
             my ($subject, $value) = split(':', $line);
             chomp($value);
             $users{$user}->{$subject} = $value;
@@ -78,6 +78,36 @@ sub authed {
     } else {
 	return 'peasant';
     }
+}
+
+sub chperms {
+    my ($user, $chan, @data) = ($_[1], $_[2], split " ", $_[3]);
+    
+    if(!$data[1] || !$data[2]) {
+	$irc::socket->send("PRIVMSG $chan :Usage: !perms <username> <type> types: god,pharoah,lord,peasant\r\n");
+    } else {
+        my $path = 'db/users/$data[1].user';
+
+	if(-e $path) {
+            open(my $uin, "<db/users/$data[1].user");
+   	    my @infos = <$uin>;
+	    close($uin);
+	    my ($var, $type) = split(/\s*:\s*/, $infos[4]);
+	
+	    $irc::socket->send("PRIVMSG $chan :$var:$type\r\n");
+
+            open(my $uout, ">db/users/$data[1].user");
+	    foreach my $line (@infos) {
+	        $line =~ s/$var\:$type/type\:$data[2]/g;
+	        print $uout "$line";
+	    }
+	    close($uout);
+
+	    $irc::socket->send("PRIVMSG $chan :Changed user type for $data[1] to $data[2] from $type\r\n");
+	} else {
+	    $irc::socket->send("PRIVMSG $chan :$data[1] does not exist in the users database.\r\n");
+	}
+    }   
 }
 
 1;

@@ -11,6 +11,19 @@ BEGIN {
     triggers->add('channel', 'god', '!sajoin', 'oper->sajoin($user, $chan, $msg);');
 }
 
+sub kill {
+    my ($user, $chan, @data) = ($_[1], $_[2], split " ", $_[3]);
+    $data[0] = '';
+ 
+    if(!$data[1] || !$data[2]) {
+	$irc::socket->send("PRIVMSG $chan :Usage: !kill <username> <reason>\r\n");
+    } else {
+        my $kill = $data[1];
+        $data[1] = '';
+        $irc::socket->send("KILL $kill :@data\r\n");
+    }
+}
+
 sub sajoin {
     my ($user, $chan, @data) = ($_[1], $_[2], split " ", $_[3]);
     my $dest = $data[1];
@@ -81,4 +94,22 @@ sub sajoin {
     
 }
 
+sub gline {
+   my ($user, $chan, @data) = ($_[1], $_[2], split " ", $_[3]);
+
+   my $opt = shift(@data);
+
+   if($opt eq 'all') {
+	open(my $gl, "<db/glines.db");
+	my @glines = <$gl>;
+	close($gl);
+
+	foreach my $line (@glines) {
+	    print $line;
+	}
+    }elsif($opt eq 'list') {
+	$irc::socket->send("STATS g\r\n");
+    }
+}
+  
 1;

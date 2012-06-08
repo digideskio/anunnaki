@@ -1,0 +1,110 @@
+#!/usr/bin/perl
+#
+# Anunnaki bot - Internet IRC bot daemon
+#
+# Copyright (C) 2011-2012 Brock Ramsey <brock@spokey.org>
+#
+# This file is part of Anunnaki Bot.  Anunnaki Bot is free software: you can
+# redistribute it and/or modify it under the terms of the GNU General Public
+# License as published by the Free Software Foundation, version 2.
+#
+# This program is distributed in the hope that it will be useful, but WITHOUT
+# ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
+# FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more
+# details.
+#
+# You should have received a copy of the GNU General Public License
+# along with this program.  If not, see <http://www.gnu.org/licenses/>.
+#
+
+BEGIN {
+    require 5.10.0;
+    require Config::Autoload;
+}
+
+my $os = `uname -sr`;
+
+my $banner = `cat db/banner.txt`;
+for my $line ($banner) {
+    print $line;
+}
+
+print <<"STOP" ;
+*** If you are unsure of any of these values lave it blank for     ***
+*** standard settings that will work, and your bot will run        ***
+*** using them. Please consult your IRC network admin if in doubt. ***
+
+Your operating system is: \e[1;32m$os\e[0m
+STOP
+
+
+print "\n[Enter to continue]";
+chomp(my $start = <stdin>);
+
+if($start eq '') {
+    print "Server to connect to: ";
+    chomp(my $server = <stdin>);
+
+    print "Port for server: ";
+    chomp(my $port = <stdin>);
+
+    print "Nickname for bot: ";
+    chomp(my $nick = <stdin>);
+
+    print "Channels to join (seperated by commas #channel1,#channel2): ";
+    chomp(my $channels = <stdin>);
+
+    print "Fork the bot into background? (Run as daemon yes/no) ";
+    chomp(my $daemon = <stdin>);
+
+    print "Report errors? (verbose mode on/off) ";
+    chomp(my $error = <stdin>);
+    
+    print "Logging (on/off) ";
+    chomp(my $log = <stdin>);
+
+    print "Use an oline? (yes/no) ";
+    chomp(my $oline = <stdin>);
+ 
+    if($oline eq 'yes') {
+	print "Oper username: ";
+	chomp(my $ouser = <stdin>);
+	print "Oper password: ";
+	chomp(my $opass = <stdin>);
+
+        open(my $conf, ">conf/anunnaki.conf");
+        print $conf "
+#################################################
+#                                      _    _   #
+#   __ _ _ __  _   _ _ __  _ __   __ _| | _(_)  #
+#  / _` | '_ \| | | | '_ \| '_ \ / _` | |/ / |  #
+# | (_| | | | | |_| | | | | | | | (_| |   <| |  #
+#  \__,_|_| |_|\__,_|_| |_|_| |_|\__,_|_|\_\_|  #
+#                                - they exist!  #
+#                                               #
+# configuration file                            #
+#                                               #
+#################################################
+    \n# irc server to connect to\nserver = $server\n\n#port to connect to on server\nport = $port\n\n# nickname for bot\nnick = $nick\n\n# channels to join on startup\nchannels = $channels\n\n# fork into backgroun daemonize\ndaemon = $daemon\n\n# error reporting\nerrors = $error\n\n# logging\nlogging = $log\n\n# oper username\nouser = $ouser\n\n# oper password\nopass = $opass\n\n";
+        close($conf);
+    } else {
+
+    open(my $conf, ">conf/anunnaki.conf");
+    print $conf "
+#################################################
+#                                      _    _   #
+#   __ _ _ __  _   _ _ __  _ __   __ _| | _(_)  #
+#  / _` | '_ \| | | | '_ \| '_ \ / _` | |/ / |  #
+# | (_| | | | | |_| | | | | | | | (_| |   <| |  #
+#  \__,_|_| |_|\__,_|_| |_|_| |_|\__,_|_|\_\_|  #
+#                                - they exist!  #
+#                                               #
+# configuration file                            #
+#                                               #
+#################################################
+    \n# irc server to connect to\nserver = $server\n\n#port to connect to on server\nport = $port\n\n# nickname for bot\nnick = $nick\n\n# channels to join on startup\nchannels = $channels\n\n# fork into backgroun daemonize\ndaemon = $daemon\n\n# error reporting\nerrors = $error\n\n# logging\nlogging = $log\n\n# oper username\nouser = \n\n# oper password\nopass = ";
+    close($conf);
+    }
+
+}
+
